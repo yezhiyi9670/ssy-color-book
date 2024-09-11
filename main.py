@@ -125,7 +125,7 @@ def card_color_book(color_set: list, gamut: str):
                 json_palette.append({
                     'colorName': '#' + hex,
                     'company': 0,
-                    'name': f'SSY {item.name} ({gamut})'
+                    'name': f'SSY/{gamut} {item.name}'
                 })
     
     json_str = json.dumps({
