@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets/style.css" />
+  <style>
+    body {
+      margin: 0;
+      padding: 16px;
+      background: #bcc1cc;
+    }
+    .root {
+      max-width: 1000px;
+      box-sizing: border-box;
+      margin: 0 auto;
+      width: 100%;
+      background: white;
+      position: relative;
+      padding: 4em 4em;
+    }
+    @media(max-width: 800px) {
+      body {
+        padding: 0;
+      }
+    }
+    @media print {
+      body, .root {
+        background: transparent;
+      }
+      .root {
+        width: 100vw;
+        font-size: 2vw !important;
+        max-width: unset;
+        padding: 0;
+      }
+    }
+  </style>
+  <script>
+    function setRootFontSize() {
+      const root = document.querySelector('.root')
+      if(!root) return;
+      root.style.fontSize = root.clientWidth / 58 + 'px'
+    }
+    ;(() => {
+      function _r() {
+        setRootFontSize()
+        requestAnimationFrame(_r)
+      }
+      requestAnimationFrame(_r)
+    })()
+  </script>
+</head>
+<body>
+  <div class="root">
+    <!--ROOT_CONTENT-->
+    <div class="color-info-dialog">
+      <div class="color-info-dialog-i">
+        <a href="javascript:;" aria-label="close" class="close">×</a>
+        <div class="color-zoomin">
+          <div class="color-zoomin-block"></div>
+          <div class="color-zoomin-label">
+            <span class="color-zoomin-label-i copy-field"></span>
+          </div>
+        </div>
+        <div class="color-warning color-warning-chromasample">
+          <div class="color-warning-icon">⚠️</div>
+          <div class="color-warning-text">This color is for demonstration only and is probably inconsistent across color profiles.</div>
+        </div>
+        <div class="color-warning color-warning-undisplayable">
+          <div class="color-warning-icon">⚠️</div>
+          <div class="color-warning-text">This color exceeds the gamut or brightness limit of the color space.</div>
+        </div>
+        <div class="color-details">
+          <table>
+            <tr class="color-details-row color-details-row-css">
+              <th>CSS</th>
+              <td></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+            <tr class="color-details-row color-details-row-srgb">
+              <th>sRGB</th>
+              <td><span class="copy-field color-value-hex"></span></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+            <tr class="color-details-row color-details-row-adobergb">
+              <th>AdobeRGB</th>
+              <td><span class="copy-field color-value-hex"></span></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+            <tr class="color-details-row color-details-row-displayp3">
+              <th>DisplayP3</th>
+              <td><span class="copy-field color-value-hex"></span></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+            <tr class="color-details-row color-details-row-cmyk">
+              <th>CMYK</th>
+              <td></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+            <tr class="color-details-row color-details-row-xyy">
+              <th>CIE-xyY</th>
+              <td></td>
+              <td><span class="copy-field color-value-coord"></span></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="../assets/script.js"></script>
+</body>
+</html>
