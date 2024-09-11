@@ -58,7 +58,7 @@ class ColorEntry:
         triplet = self.get_triplet(gamut)
         if not triplet.is_normal():
             return None
-        return '#{:02X}{:02X}{:02X}'.format(*[
+        return '{:02X}{:02X}{:02X}'.format(*[
             int(round(x * 255))
             for x in (triplet.r, triplet.g, triplet.b)
         ])

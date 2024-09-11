@@ -200,7 +200,7 @@ p.subtitle {
 .color-warning {
   display: none;
   padding: 0 0.5em;
-  max-width: 24em;
+  max-width: 23.5em;
 }
 .color-info-dialog.chromasample .color-warning-chromasample {
   display: flex;
