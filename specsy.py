@@ -94,6 +94,8 @@ class SpecSYColor():
             [ 0.0358458, -0.0761724,  0.9568845]
         ])
         rgb_vec = displayp3_xyz65 @ xyz65_srgb @ rgb_vec
+        for i in range(0, 3):
+            rgb_vec[i] = RGBTriplet.near_normalize(rgb_vec[i])
         return RGBTriplet(rgb_vec[0] ** (1 / gamma), rgb_vec[1] ** (1 / gamma), rgb_vec[2] ** (1 / gamma))
     
 class RGBTriplet():

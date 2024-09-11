@@ -12,10 +12,10 @@ def generate_color_set():
     # spec_list += [ 'L' + str(x) for x in range(10, 100, 10) ]
     # hand picked list
     spec_list = [
-        '400', '460', '480', '484', '487', '490', '493', '496', '500',
+        '400', '465', '480', '486', '490', '493', '495', '500',
         '510', '550', '560', '565', '570', '573',
-        '577', '580', '585', '590', '600', '620', '660',
-        '700', 'L05', 'L08', 'L12', 'L20', 'L30', 'L40', 'L70'
+        '577', '580', '585', '590', '600', '620', '700',
+        'L05', 'L08', 'L12', 'L20', 'L30', 'L45', 'L70'
     ]
     hex_digits = '0123456789ABC'
     
@@ -39,9 +39,9 @@ def generate_color_set():
             system.append(stripe)
             s_digits = hex_digits
             if y == '1':
-                s_digits = '369C'
+                s_digits = '369BC'
             elif y == '2':
-                s_digits = '2468AC'
+                s_digits = '2468ABC'
             elif y == '3':
                 s_digits = '245678ABC'
             for s in hex_digits:
