@@ -1,4 +1,6 @@
 import os
+import json
+import base64
 
 from specsy import SpecSYColor, RGBTriplet, CMYKCoords
 from writer import ColorEntry, HTMLColorCardWriter
@@ -53,7 +55,7 @@ def generate_color_set():
     return ret
 
 def card_test():
-    writer = HTMLColorCardWriter('output/test-card.html')
+    writer = HTMLColorCardWriter('book/test-card.html')
     writer.gamut_indicator('sRGB')
     writer.page_title(MAIN_TITLE + ' (sRGB)')
     writer.title(MAIN_TITLE, 'Test: Selection Reference Card')
@@ -92,7 +94,10 @@ def card_test():
     
 def card_color_book(color_set: list, gamut: str):
     print(gamut)
-    writer = HTMLColorCardWriter(f'output/{gamut.replace("/", "_")}.html')
+    
+    # ==== Write HTML book ====
+    
+    writer = HTMLColorCardWriter(f'book/{gamut.replace("/", "_")}.html')
     writer.gamut_indicator(gamut)
     writer.page_title(MAIN_TITLE + f' ({gamut})')
     writer.title(MAIN_TITLE, f'A device-independent color book, for {gamut} (<!--DISPLAYABLE_COUNT--> colors)')
@@ -103,9 +108,36 @@ def card_color_book(color_set: list, gamut: str):
         writer.color_group(group[0], group[1], gamut)
         
     writer.commit()
+    
+    # ==== Write JSON palette ====
+    
+    if gamut == 'AdobeRGB/CMYK': return
+    
+    json_palette = []
+    
+    for group in color_set:
+        group = group[1]
+        for row in group:
+            for item in row:
+                if item == None: continue
+                hex = item.hex_code(gamut)
+                if hex == None: continue
+                json_palette.append({
+                    'colorName': '#' + hex,
+                    'company': 0,
+                    'name': f'SSY {item.name} ({gamut})'
+                })
+    
+    json_str = json.dumps({
+        'm_colorInfos': json_palette
+    }, indent='    ')
+    open(f'palette/Sparks Lab SSY {gamut}.json', 'w', encoding='utf-8').write(json_str)
+    b64_str = base64.encodebytes(json_str.encode(encoding='utf-8'))
+    open(f'palette/Sparks Lab SSY {gamut}.scl', 'wb').write(b64_str)
 
 if __name__ == '__main__':
-    os.makedirs('./output', exist_ok=True)
+    os.makedirs('./palette', exist_ok=True)
+    os.makedirs('./book', exist_ok=True)
     
     color_set = generate_color_set()
 
