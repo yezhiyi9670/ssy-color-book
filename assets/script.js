@@ -25,6 +25,9 @@
     }
     document.getSelection().removeAllRanges()
     $dialog.style.display = 'none'
+    if($lastElement) {
+      $lastElement.focus()
+    }
   }
 
   function openDialog(element) {
@@ -114,7 +117,6 @@
   $dialog.addEventListener('keydown', evt => {
     if(evt.key == 'Escape') {
       closeDialog()
-      $lastElement.focus()
     }
   })
 }})()
