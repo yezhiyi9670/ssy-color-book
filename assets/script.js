@@ -2,6 +2,7 @@
   const $dialog = document.querySelector('.color-info-dialog')
   const $root = document.querySelector('.root')
   const $html = document.querySelector('html')
+  let $lastElement = null
 
   $dialog.addEventListener('click', evt => {
     document.getSelection().removeAllRanges()
@@ -92,17 +93,28 @@
     }
 
     openDialog(element)
+
+    $lastElement = element
+    document.querySelector('.color-zoomin-label-i').focus()
   }
 
   Object.assign(window, { showColorDetails })
 
   document.querySelectorAll('.copy-field').forEach(element => {
-    element.addEventListener('click', evt => {
+    const selectAll = evt => {
       let range = new Range()
       range.selectNode(element)
       document.getSelection().removeAllRanges()
       document.getSelection().addRange(range)
       evt.stopPropagation()
-    })
+    }
+    element.addEventListener('focus', selectAll)
+    element.addEventListener('click', selectAll)
+  })
+  $dialog.addEventListener('keydown', evt => {
+    if(evt.key == 'Escape') {
+      closeDialog()
+      $lastElement.focus()
+    }
   })
 }})()
