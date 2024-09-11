@@ -43,7 +43,7 @@ def generate_color_set():
             elif y == '2':
                 s_digits = '2468ABC'
             elif y == '3':
-                s_digits = '245678ABC'
+                s_digits = '2456789ABC'
             for s in hex_digits:
                 if s == '0': continue
                 code = spec + s + y

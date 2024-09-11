@@ -128,8 +128,9 @@ class HTMLColorCardWriter:
         ''')
     
     def other_editions(self, gamut: str):
+        version = open('VERSION', 'r', encoding='utf-8').read().strip()
         self.write(f'''
-            <p class="select-color-space">
+            <p class="select-color-space">v{version} |
         ''')
         first = True
         for g in ['sRGB', 'DisplayP3', 'AdobeRGB', 'AdobeRGB/CMYK']:
