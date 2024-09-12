@@ -88,6 +88,10 @@ class HTMLColorCardWriter:
         self.buffer = ''
         self.displayable_count = 0
         self.printable_count = 0
+        self.filter_cmyk = False
+        
+    def set_filter_cmyk(self, s: bool):
+        self.filter_cmyk = s
         pass
     
     def is_ok(self):
@@ -131,11 +135,10 @@ class HTMLColorCardWriter:
             <p class="subtitle">{subtitle}</p>
         ''')
     
-    def other_editions(self, gamut: str):
+    def edition_switcher(self, gamut: str):
         version = open('VERSION', 'r', encoding='utf-8').read().strip()
         self.write(f'''
-            <p class="select-color-space">v{version} |
-        ''')
+            <p class="select-color-space">v{version} | Display ''' + '{')
         first = True
         for g in ['sRGB', 'DisplayP3', 'AdobeRGB']:
             if first:
@@ -143,10 +146,16 @@ class HTMLColorCardWriter:
             else:
                 self.write(f''' · ''')
             if g == gamut:
-                self.write(f'''<b>{g}</b>''')
+                self.write(f'''<a class="link-active" href="./{g.replace('/', '_')}.html">{g}</a>''')
             else:
                 self.write(f'''<a href="./{g.replace('/', '_')}.html">{g}</a>''')
-        self.write('</p>')
+        self.write('} | Non-CMYK {')
+        self.write('''<a class="cmyk-mode" href="javascript:;" onclick="set_cmyk_mode(this, 'full')">Show</a>''')
+        self.write(' · ')
+        self.write('''<a class="cmyk-mode link-active" href="javascript:;" onclick="set_cmyk_mode(this, 'mark')">Mark</a>''')
+        self.write(' · ')
+        self.write('''<a class="cmyk-mode" href="javascript:;" onclick="set_cmyk_mode(this, 'only')">Hide</a>''')
+        self.write('}</p>')
             
     def __color_display(self, color: ColorEntry, gamut: str):
         css_color_code = color.css_color_code(gamut)
@@ -157,10 +166,14 @@ class HTMLColorCardWriter:
         coord_xyy = color.xyy_coord()
         coord_ssy = color.ssy_coord()
         is_chromasample = color.is_chromasample()
+        normal_cmyk_available = color.cmyk and color.cmyk.is_normal()
+        
+        if self.filter_cmyk and not is_chromasample and not normal_cmyk_available:
+            css_color_code = None
         
         if css_color_code and not is_chromasample:
             self.displayable_count += 1
-            if color.cmyk and color.cmyk.is_normal():
+            if normal_cmyk_available:
                 self.printable_count += 1
         
         # uses box shadow instead of background color. Ensures correct printing.
@@ -188,7 +201,7 @@ class HTMLColorCardWriter:
                         srgb: [{'true' if hex_srgb else 'false'}, '{coord_srgb}', '{hex_srgb or '--'}'],
                         adobergb: [{'true' if hex_adobergb else 'false'}, '{coord_adobergb}', '{hex_adobergb or '--'}'],
                         displayp3: [{'true' if hex_displayp3 else 'false'}, '{coord_displayp3}', '{hex_displayp3 or '--'}'],
-                        cmyk: [{'true' if (color.cmyk and color.cmyk.is_normal()) else 'false'}, '{coord_cmyk or '--'}'],
+                        cmyk: [{'true' if normal_cmyk_available else 'false'}, '{coord_cmyk or '--'}'],
                         xyy: [{'true' if coord_xyy else 'false'}, '{coord_xyy or '--'}'],
                         ssy: [{'true' if coord_ssy else 'false'}, '{coord_ssy or '--'}'],
                         isChromasample: {'true' if is_chromasample else 'false'},

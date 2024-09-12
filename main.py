@@ -92,17 +92,24 @@ def card_test():
     
     writer.commit()
     
-def card_color_book(color_set: list, gamut: str):
-    print(gamut)
+def card_color_book(color_set: list, edition: str):
+    print('Writing book', edition)
+    
+    gamut = edition
+    filter_cmyk = False
+    if edition.endswith('/CMYK'):
+        gamut = edition[:-5]
+        filter_cmyk = True
     
     # ==== Write HTML book ====
     
-    writer = HTMLColorCardWriter(f'book/{gamut.replace("/", "_")}.html')
+    writer = HTMLColorCardWriter(f'book/{edition.replace("/", "_")}.html')
     writer.gamut_indicator(gamut)
-    writer.page_title(MAIN_TITLE + f' ({gamut})')
+    writer.page_title(MAIN_TITLE + f' ({edition})')
     writer.title(MAIN_TITLE, f'For {gamut} displays (<!--PRINTABLE_COUNT-->/<!--DISPLAYABLE_COUNT--> colors)')
     
-    writer.other_editions(gamut)
+    writer.edition_switcher(edition)
+    writer.set_filter_cmyk(filter_cmyk)
     
     for group in color_set:
         writer.color_group(group[0], group[1], gamut)
@@ -110,6 +117,9 @@ def card_color_book(color_set: list, gamut: str):
     writer.commit()
     
     # ==== Write JSON palette ====
+    
+    if filter_cmyk:
+        return
     
     json_palette = []
     
@@ -136,6 +146,8 @@ def card_color_book(color_set: list, gamut: str):
 if __name__ == '__main__':
     os.makedirs('./palette', exist_ok=True)
     os.makedirs('./book', exist_ok=True)
+    
+    print('Generating color set')
     
     color_set = generate_color_set()
 

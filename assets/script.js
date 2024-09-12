@@ -106,8 +106,6 @@
     document.querySelector('.color-zoomin-label-i').focus()
   }
 
-  Object.assign(window, { showColorDetails })
-
   document.querySelectorAll('.copy-field').forEach(element => {
     const selectAll = evt => {
       let range = new Range()
@@ -124,4 +122,23 @@
       closeDialog()
     }
   })
+
+  document.querySelectorAll('a').forEach(element => {
+    element.addEventListener('click', evt => {
+      if(element.classList.contains('link-active')) {
+        evt.preventDefault()
+      }
+    })
+  })
+
+  document.body.setAttribute('data-cmyk-mode', 'mark')
+  function set_cmyk_mode(element, flag) {
+    document.body.setAttribute('data-cmyk-mode', flag)
+    document.querySelectorAll('.cmyk-mode').forEach(element => {
+      element.classList.remove('link-active')
+    })
+    element.classList.add('link-active')
+  }
+
+  Object.assign(window, { showColorDetails, set_cmyk_mode })
 }})()
