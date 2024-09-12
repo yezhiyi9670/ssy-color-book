@@ -1,7 +1,9 @@
-from colormath.color_objects import SpectralColor, xyYColor, sRGBColor, AdobeRGBColor, CMYKColor
+from colormath.color_objects import SpectralColor, xyYColor, sRGBColor, AdobeRGBColor, XYZColor, LabColor
 from colormath.color_conversions import convert_color
+from colormath import color_diff
 import numpy
 
+from cmyk_transform import xyz_to_cmyk, cmyk_to_xyz
 class SpecSYColor():
     def __init__(self, spec: int, saturation: float, Y: float):
         assert 400 <= spec <= 700 or -99 <= spec <= -1, 'Spectrum ordinal is out of the allowed range [400, 700] or [-99, -1]'
@@ -26,7 +28,9 @@ class SpecSYColor():
             code = code[3:5]
         else:
             assert code[0] == '0', '2-digits code must have saturation 0'
-        saturation = int(code[0], base=13) / 12
+        
+        saturation = (int(code[0], base=13) / 12) ** 1.4
+        
         Y = int(code[1], base=13) - 2
         if -2 <= Y <= 2:
             Y = Y / 2 + 1
@@ -57,7 +61,7 @@ class SpecSYColor():
         # Apply Y
         xyy_color.xyy_Y = self.Y
         # Apply saturation
-        s = self.saturation ** 1.4
+        s = self.saturation
         white_xyy = convert_color(sRGBColor(1, 1, 1), xyYColor, target_illuminant='d65')
         xyy_color.xyy_x = s * xyy_color.xyy_x + (1 - s) * white_xyy.xyy_x
         xyy_color.xyy_y = s * xyy_color.xyy_y + (1 - s) * white_xyy.xyy_y
@@ -68,15 +72,36 @@ class SpecSYColor():
         rgb_color = convert_color(xyy_color, sRGBColor)
         return RGBTriplet(rgb_color.rgb_r, rgb_color.rgb_g, rgb_color.rgb_b)
     
-    def get_cmyk_coords(self):
-        xyy_color = self.get_xyy_color()
-        cmyk_color = convert_color(xyy_color, CMYKColor)
-        return CMYKCoords(cmyk_color.cmyk_c, cmyk_color.cmyk_m, cmyk_color.cmyk_y, cmyk_color.cmyk_k)
-
     def get_adobergb_triplet(self):
         xyy_color = self.get_xyy_color()
         rgb_color = convert_color(xyy_color, AdobeRGBColor)
         return RGBTriplet(rgb_color.rgb_r, rgb_color.rgb_g, rgb_color.rgb_b)
+    
+    def get_cmyk_coords(self):
+        # xyy_color = self.get_xyy_color()
+        # cmyk_color = convert_color(xyy_color, CMYKColor)
+        # return CMYKCoords(cmyk_color.cmyk_c, cmyk_color.cmyk_m, cmyk_color.cmyk_y, cmyk_color.cmyk_k, False)
+        xyy_color = self.get_xyy_color()
+        xyz_color = convert_color(xyy_color, XYZColor)
+        xyz_color.apply_adaptation('d50')
+        
+        xyz_tuples = xyz_color.get_value_tuple()
+        cmyk_tuples = xyz_to_cmyk(xyz_tuples)
+        xyz_rev_tuples = cmyk_to_xyz(cmyk_tuples)
+        
+        xyz_color_d65 = XYZColor(*xyz_tuples, illuminant='d50')
+        xyz_color_d65.apply_adaptation('d65')
+        xyz_rev_color_d65 = XYZColor(*xyz_rev_tuples, illuminant='d50')
+        xyz_rev_color_d65.apply_adaptation('d65')
+        
+        far_off = color_diff.delta_e_cmc(
+            convert_color(xyz_color_d65, LabColor),
+            convert_color(xyz_rev_color_d65, LabColor)
+        ) >= 3
+
+        return CMYKCoords(
+            cmyk_tuples[0], cmyk_tuples[1], cmyk_tuples[2], cmyk_tuples[3], far_off
+        )
     
     def get_displayp3_triplet(self):
         gamma = 2.2
@@ -148,11 +173,12 @@ class RGBTriplet():
         )
         
 class CMYKCoords():
-    def __init__(self, c: float, m: float, y: float, k: float):
+    def __init__(self, c: float, m: float, y: float, k: float, out_of_gamut: bool):
         self.c = self.near_normalize(c)
         self.m = self.near_normalize(m)
         self.y = self.near_normalize(y)
         self.k = self.near_normalize(k)
+        self.out_of_gamut = out_of_gamut
     
     def __repr__(self):
         return 'CMYKCoords(c=%.3f, m=%.3f, y=%.3f, k=%.3f%s)' % (
@@ -173,6 +199,7 @@ class CMYKCoords():
     
     def is_normal(self):
         return (
+            not self.out_of_gamut and
             self.is_normal_value(self.c) and
             self.is_normal_value(self.m) and
             self.is_normal_value(self.y) and
@@ -180,19 +207,21 @@ class CMYKCoords():
         )
 
 if __name__ == '__main__':
-    print(SpecSYColor.from_code('5499').get_srgb_triplet())
-    print(SpecSYColor.from_code('L463').get_srgb_triplet())
+    print(SpecSYColor.from_code('54099').get_srgb_triplet())
+    print(SpecSYColor.from_code('L4063').get_srgb_triplet())
     print(SpecSYColor.from_code('01').get_srgb_triplet())
 
-    print(SpecSYColor.from_code('5499').get_adobergb_triplet())
-    print(SpecSYColor.from_code('L463').get_adobergb_triplet())
+    print(SpecSYColor.from_code('54099').get_adobergb_triplet())
+    print(SpecSYColor.from_code('L4063').get_adobergb_triplet())
     print(SpecSYColor.from_code('02').get_adobergb_triplet())
 
-    print(SpecSYColor.from_code('5499').get_displayp3_triplet())
-    print(SpecSYColor.from_code('L463').get_displayp3_triplet())
+    print(SpecSYColor.from_code('54099').get_displayp3_triplet())
+    print(SpecSYColor.from_code('L4063').get_displayp3_triplet())
     print(SpecSYColor.from_code('09').get_displayp3_triplet())
 
-    print(SpecSYColor.from_code('5499').get_cmyk_coords())
-    print(SpecSYColor.from_code('L463').get_cmyk_coords())
+    print(SpecSYColor.from_code('54099').get_cmyk_coords())
+    print(SpecSYColor.from_code('L4063').get_cmyk_coords())
+    print(SpecSYColor.from_code('540CC').get_cmyk_coords())
     print(SpecSYColor.from_code('00').get_cmyk_coords())
-    
+    print(SpecSYColor.from_code('0C').get_cmyk_coords())
+    print(SpecSYColor.from_code('573C6').get_cmyk_coords())

@@ -76,9 +76,14 @@
     } else {
       $dialog.classList.remove('chromasample')
     }
+    if(data.cmyk[0]) {
+      $dialog.classList.remove('cmyk-unavailable')
+    } else {
+      $dialog.classList.add('cmyk-unavailable')
+    }
     document.querySelector('.color-zoomin-label-i').innerText = data.name
 
-    for(let key of ['srgb', 'adobergb', 'displayp3', 'cmyk', 'xyy']) {
+    for(let key of ['srgb', 'adobergb', 'displayp3', 'cmyk', 'xyy', 'ssy']) {
       const [ available, coord, hex ] = data[key]
       const $row = document.querySelector(`.color-details-row-${key}`)
       const $coord = document.querySelector(`.color-details-row-${key} .color-value-coord`)

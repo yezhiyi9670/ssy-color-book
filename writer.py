@@ -8,6 +8,7 @@ class ColorEntry:
         self.displayp3 = color.get_displayp3_triplet()
         self.cmyk = color.get_cmyk_coords()
         self.name = name
+        self.chromasample_flag = False
     
     @staticmethod
     def chromasample_from(color: SpecSYColor, name: str):
@@ -16,6 +17,7 @@ class ColorEntry:
         ret.srgb = ret.srgb.get_chromasample()
         ret.adobergb = ret.adobergb.get_chromasample()
         ret.displayp3 = ret.displayp3.get_chromasample()
+        ret.chromasample_flag = True
         return ret
     
     @staticmethod
@@ -24,12 +26,11 @@ class ColorEntry:
             'sRGB': 'srgb',
             'DisplayP3': 'display-p3',
             'AdobeRGB': 'a98-rgb',
-            'AdobeRGB/CMYK': 'a98-rgb',
         }
         return css_color_specifiers[gamut]
     
     def is_chromasample(self):
-        return self.cmyk == None
+        return self.chromasample_flag
     
     def get_triplet(self, gamut: str):
         specifier = self.get_css_specifier(gamut)
@@ -45,16 +46,12 @@ class ColorEntry:
     
     def css_color_code(self, gamut: str):
         specifier = self.get_css_specifier(gamut)
-        if gamut == 'AdobeRGB/CMYK' and not self.is_chromasample() and not self.cmyk.is_normal():
-            return None
         triplet = self.get_triplet(gamut)
         if not triplet.is_normal():
             return None
         return 'color(%s %.3f %.3f %.3f)' % (specifier, triplet.r, triplet.g, triplet.b)
     
     def hex_code(self, gamut: str):
-        if gamut == 'AdobeRGB/CMYK':
-            raise NotImplementedError('Cannot get hex code in CMYK mode.')
         triplet = self.get_triplet(gamut)
         if not triplet.is_normal():
             return None
@@ -64,8 +61,8 @@ class ColorEntry:
         ])
         
     def coord_code(self, gamut: str):
-        if gamut == 'AdobeRGB/CMYK':
-            if self.is_chromasample():
+        if gamut == 'CMYK':
+            if not self.cmyk:
                 return None
             return 'cmyk(%.3f %.3f %.3f %.3f)' % (
                 self.cmyk.c, self.cmyk.m, self.cmyk.y, self.cmyk.k
@@ -79,11 +76,18 @@ class ColorEntry:
             return None
         return 'xyY(%.3f %.3f %.3f)' % self.origin.get_xyy_color().get_value_tuple()
 
+    def ssy_coord(self):
+        return 'ssy(%d %.3f %.3f)' % (self.origin.spec, self.origin.saturation, self.origin.Y)
+
+    def is_dark(self):
+        return self.origin.Y < 0.25
+
 class HTMLColorCardWriter:
     def __init__(self, filename: str):
         self.fp = open(filename, 'w', encoding='utf-8')
         self.buffer = ''
         self.displayable_count = 0
+        self.printable_count = 0
         pass
     
     def is_ok(self):
@@ -133,7 +137,7 @@ class HTMLColorCardWriter:
             <p class="select-color-space">v{version} |
         ''')
         first = True
-        for g in ['sRGB', 'DisplayP3', 'AdobeRGB', 'AdobeRGB/CMYK']:
+        for g in ['sRGB', 'DisplayP3', 'AdobeRGB']:
             if first:
                 first = False
             else:
@@ -149,12 +153,15 @@ class HTMLColorCardWriter:
         coord_srgb, hex_srgb = color.coord_code('sRGB'), color.hex_code('sRGB')
         coord_adobergb, hex_adobergb = color.coord_code('AdobeRGB'), color.hex_code('AdobeRGB')
         coord_displayp3, hex_displayp3 = color.coord_code('DisplayP3'), color.hex_code('DisplayP3')
-        coord_cmyk = color.coord_code('AdobeRGB/CMYK')
+        coord_cmyk = color.coord_code('CMYK')
         coord_xyy = color.xyy_coord()
+        coord_ssy = color.ssy_coord()
         is_chromasample = color.is_chromasample()
         
         if css_color_code and not is_chromasample:
             self.displayable_count += 1
+            if color.cmyk and color.cmyk.is_normal():
+                self.printable_count += 1
         
         # uses box shadow instead of background color. Ensures correct printing.
         self.write(f'''
@@ -162,6 +169,8 @@ class HTMLColorCardWriter:
                 'chromasample' if is_chromasample else ''
             } {
                 'undisplayable' if css_color_code == None else ''
+            } {
+                'dark' if css_color_code and color.is_dark() else ''
             } {
                 'srgb-unavailable' if not color.srgb.is_normal() else ''
             } {
@@ -181,6 +190,7 @@ class HTMLColorCardWriter:
                         displayp3: [{'true' if hex_displayp3 else 'false'}, '{coord_displayp3}', '{hex_displayp3 or '--'}'],
                         cmyk: [{'true' if (color.cmyk and color.cmyk.is_normal()) else 'false'}, '{coord_cmyk or '--'}'],
                         xyy: [{'true' if coord_xyy else 'false'}, '{coord_xyy or '--'}'],
+                        ssy: [{'true' if coord_ssy else 'false'}, '{coord_ssy or '--'}'],
                         isChromasample: {'true' if is_chromasample else 'false'},
                     {'}'})"
                     ondragstart="return false;"
@@ -232,6 +242,7 @@ class HTMLColorCardWriter:
     Write to output file and terminate.
     '''
     def commit(self):
+        self.buffer = self.buffer.replace('<!--PRINTABLE_COUNT-->', str(self.printable_count))
         self.buffer = self.buffer.replace('<!--DISPLAYABLE_COUNT-->', str(self.displayable_count))
         template_text = open('assets/template.html', 'r', encoding='utf-8').read()
         self.fp.write(template_text.replace('<!--ROOT_CONTENT-->', self.buffer))

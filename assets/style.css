@@ -47,8 +47,7 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 @media(color-gamut: p3) {
-  .gamut-indicator-icon[data-gamut="AdobeRGB"]>svg,
-  .gamut-indicator-icon[data-gamut="AdobeRGB/CMYK"]>svg {
+  .gamut-indicator-icon[data-gamut="AdobeRGB"]>svg {
     visibility: visible;
   }
 }
@@ -103,19 +102,15 @@ p.subtitle {
 }
 .color-display-block {
   display: block;
-  height: 1.8em;
+  --color-block-height: 1.8em;
+  height: var(--color-block-height);
   box-sizing: border-box;
   text-decoration: none;
   text-align: center;
-  overflow-x: hidden;
+  overflow: hidden;
 }
 .color-display.undisplayable > .color-display-block {
   border: 0.07em solid #0003;
-}
-.color-display.undisplayable > .color-display-block::before {
-  content: '×';
-  font-size: 1em;
-  color: #0003;
 }
 .color-display-label {
   text-align: center;
@@ -175,20 +170,18 @@ p.subtitle {
   margin-bottom: 1.2em;
 }
 .color-zoomin-block {
-  height: 5em;
+  --color-block-height: 5em;
+  height: var(--color-block-height);
+  box-sizing: border-box;
   width: 7em;
   margin: 0 auto;
   margin-bottom: 0.8em;
   text-align: center;
   border-radius: 0.32em;
+  overflow: hidden;
 }
 .color-info-dialog.undisplayable .color-zoomin-block {
   border: 0.07em solid #0003;
-}
-.color-info-dialog.undisplayable .color-zoomin-block::before {
-  content: '×';
-  font-size: 3.2em;
-  color: #0003;
 }
 .color-zoomin-label {
   text-align: center;
@@ -245,4 +238,40 @@ p.subtitle {
   padding: 0.16em 0.32em;
   background: #fafbfb;
   overflow-x: hidden;
+}
+
+.color-display-block, .color-zoomin-block {
+  padding-top: calc(var(--color-block-height) / 2);
+}
+.color-display-block::before {
+  font-size: 1em;
+  color: #0003;
+  display: block;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+.color-zoomin-block::before {
+  font-size: 3.2em;
+  color: #0003;
+  display: block;
+  line-height: 1;
+  transform: translateY(-50%);
+}
+
+.dark .color-display-block::before,
+.dark .color-zoomin-block::before {
+  color: #FFF3;
+}
+
+.undisplayable .color-display-block::before,
+.undisplayable .color-zoomin-block::before {
+  content: '×';
+}
+.undisplayable:not(.cmyk-unavailable) .color-display-block::before,
+.undisplayable:not(.cmyk-unavailable) .color-zoomin-block::before {
+  content: '＋';
+}
+
+:not(.undisplayable).cmyk-unavailable .color-display-block::before {
+  content: '—';
 }

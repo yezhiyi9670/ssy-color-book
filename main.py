@@ -30,7 +30,7 @@ def generate_color_set():
     ))
     
     for spec in spec_list:
-        chromasample = ColorEntry.chromasample_from(SpecSYColor.from_code(spec + '99'), spec)
+        chromasample = ColorEntry.chromasample_from(SpecSYColor.from_code(spec + 'CC'), spec)
         system = []
         ret.append((chromasample, system))
         for y in hex_digits:
@@ -100,7 +100,7 @@ def card_color_book(color_set: list, gamut: str):
     writer = HTMLColorCardWriter(f'book/{gamut.replace("/", "_")}.html')
     writer.gamut_indicator(gamut)
     writer.page_title(MAIN_TITLE + f' ({gamut})')
-    writer.title(MAIN_TITLE, f'A device-independent color book, for {gamut} (<!--DISPLAYABLE_COUNT--> colors)')
+    writer.title(MAIN_TITLE, f'For {gamut} displays (<!--PRINTABLE_COUNT-->/<!--DISPLAYABLE_COUNT--> colors)')
     
     writer.other_editions(gamut)
     
@@ -110,8 +110,6 @@ def card_color_book(color_set: list, gamut: str):
     writer.commit()
     
     # ==== Write JSON palette ====
-    
-    if gamut == 'AdobeRGB/CMYK': return
     
     json_palette = []
     
@@ -145,5 +143,3 @@ if __name__ == '__main__':
     card_color_book(color_set, 'sRGB')
     card_color_book(color_set, 'DisplayP3')
     card_color_book(color_set, 'AdobeRGB')
-    card_color_book(color_set, 'AdobeRGB/CMYK')
-    
