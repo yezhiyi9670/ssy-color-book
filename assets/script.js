@@ -25,9 +25,6 @@
     }
     document.getSelection().removeAllRanges()
     $dialog.style.display = 'none'
-    if($lastElement) {
-      $lastElement.focus()
-    }
   }
 
   function openDialog(element) {
@@ -53,7 +50,6 @@
       sizeValue = +fontSize.substring(0, fontSize.length - 2)
     }
     if(sizeValue == sizeValue) {
-      console.log('use window consistency')
       // Ensure consistency on window resize
       $dialog.style.left = left / sizeValue + 'em'
       $dialog.style.top = top / sizeValue + 'em'
@@ -126,6 +122,9 @@
   $dialog.addEventListener('keydown', evt => {
     if(evt.key == 'Escape') {
       closeDialog()
+      if($lastElement) {
+        $lastElement.focus()
+      }
     }
   })
 
