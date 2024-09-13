@@ -46,14 +46,20 @@
     if(left + $dialog.offsetWidth >= $root.offsetWidth) {
       left = $root.offsetWidth - $dialog.offsetWidth - 8
     }
-    const fontSize = $dialog.computedStyleMap().get('font-size')
-    if(fontSize.unit != 'px') {
+
+    let sizeValue = NaN
+    const fontSize = getComputedStyle($dialog)['font-size']
+    if(fontSize && fontSize.endsWith('px')) {
+      sizeValue = +fontSize.substring(0, fontSize.length - 2)
+    }
+    if(sizeValue == sizeValue) {
+      console.log('use window consistency')
+      // Ensure consistency on window resize
+      $dialog.style.left = left / sizeValue + 'em'
+      $dialog.style.top = top / sizeValue + 'em'
+    } else {
       $dialog.style.left = left + 'px'
       $dialog.style.top = top + 'px'
-    } else {
-      // Ensure consistency on window resize
-      $dialog.style.left = left / fontSize.value + 'em'
-      $dialog.style.top = top / fontSize.value + 'em'
     }
   }
   
