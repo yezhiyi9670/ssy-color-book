@@ -8876,324 +8876,299 @@
             "name": "SSY/DisplayP3 6001B"
         },
         {
-            "colorName": "#4C3B3A",
+            "colorName": "#4D3A3B",
             "company": 0,
-            "name": "SSY/DisplayP3 61031"
+            "name": "SSY/DisplayP3 62031"
         },
         {
-            "colorName": "#5C3331",
+            "colorName": "#603132",
             "company": 0,
-            "name": "SSY/DisplayP3 61061"
+            "name": "SSY/DisplayP3 62061"
         },
         {
-            "colorName": "#6D2723",
+            "colorName": "#722124",
             "company": 0,
-            "name": "SSY/DisplayP3 61091"
+            "name": "SSY/DisplayP3 62091"
         },
         {
-            "colorName": "#771D15",
+            "colorName": "#7F1E17",
             "company": 0,
-            "name": "SSY/DisplayP3 610B1"
+            "name": "SSY/DisplayP3 620B1"
         },
         {
-            "colorName": "#7C1D15",
+            "colorName": "#851F17",
             "company": 0,
-            "name": "SSY/DisplayP3 610C1"
+            "name": "SSY/DisplayP3 620C1"
         },
         {
-            "colorName": "#635655",
+            "colorName": "#645556",
             "company": 0,
-            "name": "SSY/DisplayP3 61022"
+            "name": "SSY/DisplayP3 62022"
         },
         {
-            "colorName": "#71504F",
+            "colorName": "#744F50",
             "company": 0,
-            "name": "SSY/DisplayP3 61042"
+            "name": "SSY/DisplayP3 62042"
         },
         {
-            "colorName": "#804946",
+            "colorName": "#854547",
             "company": 0,
-            "name": "SSY/DisplayP3 61062"
+            "name": "SSY/DisplayP3 62062"
         },
         {
-            "colorName": "#8F3F3A",
+            "colorName": "#95383C",
             "company": 0,
-            "name": "SSY/DisplayP3 61082"
+            "name": "SSY/DisplayP3 62082"
         },
         {
-            "colorName": "#9D3129",
+            "colorName": "#A5272B",
             "company": 0,
-            "name": "SSY/DisplayP3 610A2"
+            "name": "SSY/DisplayP3 620A2"
         },
         {
-            "colorName": "#A3291E",
+            "colorName": "#AE2821",
             "company": 0,
-            "name": "SSY/DisplayP3 610B2"
+            "name": "SSY/DisplayP3 620B2"
         },
         {
-            "colorName": "#AA281D",
+            "colorName": "#B62A1F",
             "company": 0,
-            "name": "SSY/DisplayP3 610C2"
+            "name": "SSY/DisplayP3 620C2"
         },
         {
-            "colorName": "#786868",
+            "colorName": "#796868",
             "company": 0,
-            "name": "SSY/DisplayP3 61023"
+            "name": "SSY/DisplayP3 62023"
         },
         {
-            "colorName": "#896260",
+            "colorName": "#8C6061",
             "company": 0,
-            "name": "SSY/DisplayP3 61043"
+            "name": "SSY/DisplayP3 62043"
         },
         {
-            "colorName": "#915D5B",
+            "colorName": "#965B5C",
             "company": 0,
-            "name": "SSY/DisplayP3 61053"
+            "name": "SSY/DisplayP3 62053"
         },
         {
-            "colorName": "#9A5956",
+            "colorName": "#9F5557",
             "company": 0,
-            "name": "SSY/DisplayP3 61063"
+            "name": "SSY/DisplayP3 62063"
         },
         {
-            "colorName": "#A3534F",
+            "colorName": "#A94D51",
             "company": 0,
-            "name": "SSY/DisplayP3 61073"
+            "name": "SSY/DisplayP3 62073"
         },
         {
-            "colorName": "#AB4D48",
+            "colorName": "#B3454A",
             "company": 0,
-            "name": "SSY/DisplayP3 61083"
+            "name": "SSY/DisplayP3 62083"
         },
         {
-            "colorName": "#B4453E",
+            "colorName": "#BD3A41",
             "company": 0,
-            "name": "SSY/DisplayP3 61093"
+            "name": "SSY/DisplayP3 62093"
         },
         {
-            "colorName": "#BC3D33",
+            "colorName": "#C62E36",
             "company": 0,
-            "name": "SSY/DisplayP3 610A3"
+            "name": "SSY/DisplayP3 620A3"
         },
         {
-            "colorName": "#C43224",
+            "colorName": "#D03028",
             "company": 0,
-            "name": "SSY/DisplayP3 610B3"
+            "name": "SSY/DisplayP3 620B3"
         },
         {
-            "colorName": "#CC2F23",
+            "colorName": "#DA3326",
             "company": 0,
-            "name": "SSY/DisplayP3 610C3"
+            "name": "SSY/DisplayP3 620C3"
         },
         {
             "colorName": "#817A7A",
             "company": 0,
-            "name": "SSY/DisplayP3 61014"
+            "name": "SSY/DisplayP3 62014"
         },
         {
-            "colorName": "#897777",
+            "colorName": "#8A7777",
             "company": 0,
-            "name": "SSY/DisplayP3 61024"
+            "name": "SSY/DisplayP3 62024"
         },
         {
-            "colorName": "#927473",
+            "colorName": "#957373",
             "company": 0,
-            "name": "SSY/DisplayP3 61034"
+            "name": "SSY/DisplayP3 62034"
         },
         {
-            "colorName": "#9C706E",
+            "colorName": "#9F6E6F",
             "company": 0,
-            "name": "SSY/DisplayP3 61044"
+            "name": "SSY/DisplayP3 62044"
         },
         {
-            "colorName": "#A66B69",
+            "colorName": "#AA686A",
             "company": 0,
-            "name": "SSY/DisplayP3 61054"
+            "name": "SSY/DisplayP3 62054"
         },
         {
-            "colorName": "#AF6662",
+            "colorName": "#B56164",
             "company": 0,
-            "name": "SSY/DisplayP3 61064"
+            "name": "SSY/DisplayP3 62064"
         },
         {
-            "colorName": "#B95F5B",
+            "colorName": "#C0595D",
             "company": 0,
-            "name": "SSY/DisplayP3 61074"
+            "name": "SSY/DisplayP3 62074"
         },
         {
-            "colorName": "#C35852",
+            "colorName": "#CB4F55",
             "company": 0,
-            "name": "SSY/DisplayP3 61084"
+            "name": "SSY/DisplayP3 62084"
         },
         {
-            "colorName": "#CC5048",
+            "colorName": "#D6434A",
             "company": 0,
-            "name": "SSY/DisplayP3 61094"
+            "name": "SSY/DisplayP3 62094"
         },
         {
-            "colorName": "#D5463B",
+            "colorName": "#E1353E",
             "company": 0,
-            "name": "SSY/DisplayP3 610A4"
+            "name": "SSY/DisplayP3 620A4"
         },
         {
-            "colorName": "#DE3A2A",
+            "colorName": "#EC372F",
             "company": 0,
-            "name": "SSY/DisplayP3 610B4"
+            "name": "SSY/DisplayP3 620B4"
         },
         {
-            "colorName": "#E83628",
+            "colorName": "#F83A2B",
             "company": 0,
-            "name": "SSY/DisplayP3 610C4"
+            "name": "SSY/DisplayP3 620C4"
         },
         {
-            "colorName": "#9B9393",
+            "colorName": "#9C9393",
             "company": 0,
-            "name": "SSY/DisplayP3 61015"
+            "name": "SSY/DisplayP3 62015"
         },
         {
-            "colorName": "#A5908F",
+            "colorName": "#A78F90",
             "company": 0,
-            "name": "SSY/DisplayP3 61025"
+            "name": "SSY/DisplayP3 62025"
         },
         {
-            "colorName": "#B08C8A",
+            "colorName": "#B38A8B",
             "company": 0,
-            "name": "SSY/DisplayP3 61035"
+            "name": "SSY/DisplayP3 62035"
         },
         {
-            "colorName": "#BB8785",
+            "colorName": "#BF8486",
             "company": 0,
-            "name": "SSY/DisplayP3 61045"
+            "name": "SSY/DisplayP3 62045"
         },
         {
-            "colorName": "#C7817F",
+            "colorName": "#CC7E80",
             "company": 0,
-            "name": "SSY/DisplayP3 61055"
+            "name": "SSY/DisplayP3 62055"
         },
         {
-            "colorName": "#D27B77",
+            "colorName": "#D97579",
             "company": 0,
-            "name": "SSY/DisplayP3 61065"
+            "name": "SSY/DisplayP3 62065"
         },
         {
-            "colorName": "#DE736E",
+            "colorName": "#E66C71",
             "company": 0,
-            "name": "SSY/DisplayP3 61075"
+            "name": "SSY/DisplayP3 62075"
         },
         {
-            "colorName": "#E96B64",
+            "colorName": "#F36067",
             "company": 0,
-            "name": "SSY/DisplayP3 61085"
-        },
-        {
-            "colorName": "#F46158",
-            "company": 0,
-            "name": "SSY/DisplayP3 61095"
+            "name": "SSY/DisplayP3 62085"
         },
         {
             "colorName": "#B1A7A7",
             "company": 0,
-            "name": "SSY/DisplayP3 61016"
+            "name": "SSY/DisplayP3 62016"
         },
         {
-            "colorName": "#BCA4A3",
+            "colorName": "#BEA3A4",
             "company": 0,
-            "name": "SSY/DisplayP3 61026"
+            "name": "SSY/DisplayP3 62026"
         },
         {
-            "colorName": "#C89F9E",
+            "colorName": "#CB9E9F",
             "company": 0,
-            "name": "SSY/DisplayP3 61036"
+            "name": "SSY/DisplayP3 62036"
         },
         {
-            "colorName": "#D59A98",
+            "colorName": "#D99799",
             "company": 0,
-            "name": "SSY/DisplayP3 61046"
+            "name": "SSY/DisplayP3 62046"
         },
         {
-            "colorName": "#E29390",
+            "colorName": "#E88F92",
             "company": 0,
-            "name": "SSY/DisplayP3 61056"
+            "name": "SSY/DisplayP3 62056"
         },
         {
-            "colorName": "#EF8C88",
+            "colorName": "#F7868A",
             "company": 0,
-            "name": "SSY/DisplayP3 61066"
+            "name": "SSY/DisplayP3 62066"
         },
         {
-            "colorName": "#FC847E",
+            "colorName": "#C4B9B9",
             "company": 0,
-            "name": "SSY/DisplayP3 61076"
+            "name": "SSY/DisplayP3 62017"
         },
         {
-            "colorName": "#C3B9B9",
+            "colorName": "#D1B4B5",
             "company": 0,
-            "name": "SSY/DisplayP3 61017"
+            "name": "SSY/DisplayP3 62027"
         },
         {
-            "colorName": "#CFB5B4",
+            "colorName": "#E0AEB0",
             "company": 0,
-            "name": "SSY/DisplayP3 61027"
+            "name": "SSY/DisplayP3 62037"
         },
         {
-            "colorName": "#DDB0AF",
+            "colorName": "#F0A7A9",
             "company": 0,
-            "name": "SSY/DisplayP3 61037"
+            "name": "SSY/DisplayP3 62047"
         },
         {
-            "colorName": "#EBAAA8",
+            "colorName": "#D5C9C9",
             "company": 0,
-            "name": "SSY/DisplayP3 61047"
+            "name": "SSY/DisplayP3 62018"
         },
         {
-            "colorName": "#F9A3A0",
+            "colorName": "#E3C4C4",
             "company": 0,
-            "name": "SSY/DisplayP3 61057"
+            "name": "SSY/DisplayP3 62028"
         },
         {
-            "colorName": "#D4C9C9",
+            "colorName": "#F3BDBF",
             "company": 0,
-            "name": "SSY/DisplayP3 61018"
+            "name": "SSY/DisplayP3 62038"
         },
         {
-            "colorName": "#E1C5C4",
+            "colorName": "#E4D7D7",
             "company": 0,
-            "name": "SSY/DisplayP3 61028"
+            "name": "SSY/DisplayP3 62019"
         },
         {
-            "colorName": "#EFBFBE",
+            "colorName": "#F3D1D2",
             "company": 0,
-            "name": "SSY/DisplayP3 61038"
+            "name": "SSY/DisplayP3 62029"
         },
         {
-            "colorName": "#FEB9B6",
+            "colorName": "#F2E4E4",
             "company": 0,
-            "name": "SSY/DisplayP3 61048"
+            "name": "SSY/DisplayP3 6201A"
         },
         {
-            "colorName": "#E3D7D7",
+            "colorName": "#FEF0F0",
             "company": 0,
-            "name": "SSY/DisplayP3 61019"
-        },
-        {
-            "colorName": "#F0D3D2",
-            "company": 0,
-            "name": "SSY/DisplayP3 61029"
-        },
-        {
-            "colorName": "#F1E4E4",
-            "company": 0,
-            "name": "SSY/DisplayP3 6101A"
-        },
-        {
-            "colorName": "#FFDFDE",
-            "company": 0,
-            "name": "SSY/DisplayP3 6102A"
-        },
-        {
-            "colorName": "#FDF0F0",
-            "company": 0,
-            "name": "SSY/DisplayP3 6101B"
+            "name": "SSY/DisplayP3 6201B"
         },
         {
             "colorName": "#4E3A3E",
