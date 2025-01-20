@@ -1,6 +1,6 @@
 # Sparks Lab SSY Color Book
 
-**English** | [简体中文](README_zh.md)
+**English** | [简体中文](README_zh.md) || [Online Color Book](https://sparkslab.art/colors/) | [RGB Colors](https://sparkslab.art/colors/palette/)
 
 This is a homemade digital color book. It contains virtually all kinds of colors and aims to eliminate the hassle of manually formulating colors using the usually hard-to-use color picker when doing visual design.
 
@@ -11,10 +11,6 @@ This is a homemade digital color book. It contains virtually all kinds of colors
 > Chromium-based browsers will work correctly with a wide-gamut display as long as your display has the correct specifications in its ICC file.
 >
 > The color book uses CSS wide-gamut standards. If your browser support them, you can view whatever edition you want, but keep in mind that out-of-gamut colors will be inaccurate.
-
-The repository contains code for generating the color book, not the color book itself. [View or save the color book here](https://sparkslab.art/colors/).
-
-HEX RGB values are also [available for download here](https://sparkslab.art/colors/palette/).
 
 ## Brief instruction
 

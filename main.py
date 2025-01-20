@@ -14,8 +14,8 @@ def generate_color_set():
     spec_list = [
         '400', '465', '480', '486', '490', '493', '496', '500',
         '507', '550', '560', '565', '570', '573',
-        '577', '580', '585', '590', '595', '600', '610', '700',
-        'L05', 'L08', 'L12', 'L20', 'L30', 'L45', 'L70'
+        '577', '580', '585', '590', '595', '600', '610',
+        'L03', 'L07', 'L12', 'L20', 'L30', 'L45', 'L70'
     ]
     hex_digits = '0123456789ABC'
     
@@ -142,6 +142,26 @@ def card_color_book(color_set: list, edition: str):
     open(f'palette/Sparks Lab SSY {gamut}.json', 'w', encoding='utf-8').write(json_str)
     b64_str = base64.encodebytes(json_str.encode(encoding='utf-8'))
     open(f'palette/Sparks Lab SSY {gamut}.scl', 'wb').write(b64_str)
+    
+    # ==== Write text palette ====
+    
+    text_palette = ''
+    for group in color_set:
+        group = group[1]
+        for row in group:
+            for item in row:
+                if item == None: continue
+                triplet = item.get_triplet(gamut)
+                if not triplet.is_normal(): continue
+                triplet = [
+                    int(round(item * 255))
+                    for item in [ triplet.r, triplet.g, triplet.b ]
+                ]
+                text_palette += (
+                    f'{triplet[0]} {triplet[1]} {triplet[2]} SSY/{gamut} {item.name}\n'
+                )
+
+    open(f'palette/Sparks Lab SSY {gamut}.gpl', 'w', encoding='utf-8').write(text_palette)
 
 if __name__ == '__main__':
     os.makedirs('./palette', exist_ok=True)

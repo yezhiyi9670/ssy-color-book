@@ -1,6 +1,6 @@
 # Sparks Lab SSY Color Book
 
-[English](README.md) | **简体中文**
+[English](README.md) | **简体中文** || [网页版色卡](https://sparkslab.art/colors/) | [RGB 颜色值](https://sparkslab.art/colors/palette/)
 
 这是一份自制的电子色卡，包括几乎所有种类的颜色，旨在免去视觉设计时在调色盘上搓颜色的痛苦过程（许多软件的调色盘都不那么好用，HSV 颜色模型有时也非常反直觉）。
 
@@ -11,10 +11,6 @@
 > 基于 Chromium 的浏览器可以正常支持广色域显示器，前提是显示器的 ICC 文件中具有正确的色域信息。
 >
 > 色卡中的颜色使用 CSS 广色域标准实现。如果你的浏览器遵循该标准，你可以使用此色卡的任意版本，无论显示器的色域。但请注意，超出显示器色域的颜色不能准确显示。
-
-此仓库仅包含生成色卡所需的代码。[如需直接查看或保存色卡请点击此处](https://sparkslab.art/colors/)。
-
-还提供[十六进制 RGB 颜色值的下载](https://sparkslab.art/colors/palette/)。
 
 ## 简介
 
