@@ -1,6 +1,6 @@
 # Sparks Lab SSY Color Book
 
-[English](README.md) | **简体中文** || [网页版色卡](https://sparkslab.art/colors/) | [RGB 颜色值](https://sparkslab.art/colors/palette/)
+[English](README.md) | **简体中文** || [网页版色卡](https://sparkslab.art/colors/) | [RGB 颜色值](palette/)
 
 这是一份自制的电子色卡，包括几乎所有种类的颜色，旨在免去视觉设计时在调色盘上搓颜色的痛苦过程（许多软件的调色盘都不那么好用，HSV 颜色模型有时也非常反直觉）。
 

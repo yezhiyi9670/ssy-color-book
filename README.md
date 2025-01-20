@@ -1,6 +1,6 @@
 # Sparks Lab SSY Color Book
 
-**English** | [简体中文](README_zh.md) || [Online Color Book](https://sparkslab.art/colors/) | [RGB Colors](https://sparkslab.art/colors/palette/)
+**English** | [简体中文](README_zh.md) || [Online Color Book](https://sparkslab.art/colors/) | [RGB Colors](palette/)
 
 This is a homemade digital color book. It contains virtually all kinds of colors and aims to eliminate the hassle of manually formulating colors using the usually hard-to-use color picker when doing visual design.
 
