@@ -59,7 +59,12 @@
     }
   }
   
-  function showColorDetails(element, data) {
+  function showColorDetails(element, preferHexValue) {
+    json_str = element.getAttribute('data-json')
+    if(!json_str) {
+      return
+    }
+    data = JSON.parse(json_str.replaceAll('^', '"'))
     if(data.css != '--') {
       document.querySelector('.color-zoomin-block').style.boxShadow = 
         `inset 10em 0 0 0 ${data.css}`
@@ -105,8 +110,27 @@
     openDialog(element)
 
     $lastElement = element
-    document.querySelector('.color-zoomin-label-i').focus()
+    if(preferHexValue) {
+      const currentGamut = document.body.getAttribute('data-gamut-identifier')
+      document.querySelector(`.color-details-row-${currentGamut} .color-value-hex`).focus()
+    } else {
+      document.querySelector('.color-zoomin-label-i').focus()
+    }
   }
+  document.querySelectorAll('.color-display-block').forEach(element => {
+    element.setAttribute('href', 'javascript:;')
+    element.addEventListener('dragstart', evt => {
+      evt.preventDefault()
+    })
+    element.addEventListener('click', evt => {
+      showColorDetails(evt.target, false)
+      evt.preventDefault()
+    })
+    element.addEventListener('contextmenu', evt => {
+      showColorDetails(evt.target, true)
+      evt.preventDefault()
+    })
+  })
 
   document.querySelectorAll('.copy-field').forEach(element => {
     const selectAll = evt => {
@@ -137,13 +161,16 @@
   })
 
   document.body.setAttribute('data-cmyk-mode', 'mark')
-  function set_cmyk_mode(element, flag) {
+  function set_cmyk_mode(flag) {
     document.body.setAttribute('data-cmyk-mode', flag)
     document.querySelectorAll('.cmyk-mode').forEach(element => {
       element.classList.remove('link-active')
     })
-    element.classList.add('link-active')
+    document.querySelector(`.cmyk-mode[data-cmyk-mode=${flag}]`).classList.add('link-active')
   }
-
-  Object.assign(window, { showColorDetails, set_cmyk_mode })
+  document.querySelectorAll('.cmyk-mode').forEach(element => {
+    element.addEventListener('click', () => {
+      set_cmyk_mode(element.getAttribute('data-cmyk-mode'))
+    })
+  })
 }})()

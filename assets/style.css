@@ -114,14 +114,29 @@ p.subtitle {
   overflow: hidden;
 }
 .color-display.undisplayable > .color-display-block {
-  border: 0.07em solid #0003;
+  border: 0.07em solid #0000001A;
 }
 .color-display-label {
   text-align: center;
   font-size: 0.8em;
+  position: relative;
+}
+.color-display-label b {
+  font-size: 0;
+}
+.color-display-label i {
+  position: absolute;
+  font-size: 1em;
+  left: 0;
+  top: 0;
+  color: transparent;
+  font-style: normal;
 }
 .color-display.chromasample .color-display-label {
   font-weight: 700;
+}
+.color-display.undisplayable .color-display-label {
+  color: #0003;
 }
 
 .plots-row {
@@ -130,8 +145,8 @@ p.subtitle {
   page-break-inside: avoid;
 }
 .plots-row>* {
-  flex: 0;
-  flex-basis: calc(100% / 13);
+  width: 0;
+  flex: 1;
   box-sizing: border-box;
 }
 .plots-row.large>* {
@@ -150,6 +165,7 @@ p.subtitle {
   padding: 0.64em;
   /* width: 26em; */
   width: unset;
+  user-select: none;
 }
 .color-info-dialog-i {
   position: relative;
@@ -185,7 +201,7 @@ p.subtitle {
   overflow: hidden;
 }
 .color-info-dialog.undisplayable .color-zoomin-block {
-  border: 0.07em solid #0003;
+  border: 0.07em solid #0000001A;
 }
 .color-zoomin-label {
   text-align: center;
@@ -284,7 +300,7 @@ body[data-cmyk-mode=mark] :not(.undisplayable).cmyk-unavailable .color-display-b
 }
 body[data-cmyk-mode=only] .cmyk-unavailable .color-display-block {
   box-shadow: unset !important;
-  border: 0.07em solid #0003;
+  border: 0.07em solid #0000001A;
 }
 
 

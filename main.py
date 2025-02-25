@@ -90,7 +90,7 @@ def card_test():
         'sRGB'
     )
     
-    writer.commit()
+    writer.commit('sRGB')
     
 def card_color_book(color_set: list, edition: str):
     print('Writing book', edition)
@@ -114,7 +114,7 @@ def card_color_book(color_set: list, edition: str):
     for group in color_set:
         writer.color_group(group[0], group[1], gamut)
         
-    writer.commit()
+    writer.commit(gamut)
     
     # ==== Write JSON palette ====
     

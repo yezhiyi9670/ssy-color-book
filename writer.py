@@ -1,5 +1,6 @@
 from specsy import SpecSYColor, RGBTriplet, CMYKCoords
-
+import htmlmin
+import json
 class ColorEntry:
     def __init__(self, color: SpecSYColor, name: str):
         self.origin = color
@@ -150,15 +151,16 @@ class HTMLColorCardWriter:
             else:
                 self.write(f'''<a href="./{g.replace('/', '_')}.html">{g}</a>''')
         self.write('} | Non-CMYK {')
-        self.write('''<a class="cmyk-mode" href="javascript:;" onclick="set_cmyk_mode(this, 'full')">Show</a>''')
+        self.write('''<a class="cmyk-mode" href="javascript:;" data-cmyk-mode="all">Show</a>''')
         self.write(' · ')
-        self.write('''<a class="cmyk-mode link-active" href="javascript:;" onclick="set_cmyk_mode(this, 'mark')">Mark</a>''')
+        self.write('''<a class="cmyk-mode link-active" href="javascript:;" data-cmyk-mode="mark">Mark</a>''')
         self.write(' · ')
-        self.write('''<a class="cmyk-mode" href="javascript:;" onclick="set_cmyk_mode(this, 'only')">Hide</a>''')
+        self.write('''<a class="cmyk-mode" href="javascript:;" data-cmyk-mode="only">Hide</a>''')
         self.write('}</p>')
             
     def __color_display(self, color: ColorEntry, gamut: str):
         css_color_code = color.css_color_code(gamut)
+        gamut_hex = color.hex_code(gamut)
         coord_srgb, hex_srgb = color.coord_code('sRGB'), color.hex_code('sRGB')
         coord_adobergb, hex_adobergb = color.coord_code('AdobeRGB'), color.hex_code('AdobeRGB')
         coord_displayp3, hex_displayp3 = color.coord_code('DisplayP3'), color.hex_code('DisplayP3')
@@ -193,23 +195,24 @@ class HTMLColorCardWriter:
             }">
                 <a
                     aria-label="{color.name}"
-                    class="color-display-block" href="javascript:;"
-                    style="box-shadow: inset 0 0 0 5em {css_color_code or 'transparent'}"
-                    onclick="showColorDetails(this, {'{'}
-                        name: '{color.name}',
-                        css: '{css_color_code or '--'}',
-                        srgb: [{'true' if hex_srgb else 'false'}, '{coord_srgb}', '{hex_srgb or '--'}'],
-                        adobergb: [{'true' if hex_adobergb else 'false'}, '{coord_adobergb}', '{hex_adobergb or '--'}'],
-                        displayp3: [{'true' if hex_displayp3 else 'false'}, '{coord_displayp3}', '{hex_displayp3 or '--'}'],
-                        cmyk: [{'true' if normal_cmyk_available else 'false'}, '{coord_cmyk or '--'}'],
-                        xyy: [{'true' if coord_xyy else 'false'}, '{coord_xyy or '--'}'],
-                        ssy: [{'true' if coord_ssy else 'false'}, '{coord_ssy or '--'}'],
-                        isChromasample: {'true' if is_chromasample else 'false'},
-                    {'}'})"
-                    ondragstart="return false;"
+                    class="color-display-block"
+                    style="box-shadow: inset 0 0 0 5em {css_color_code or '#0000'}"
+                    data-json="{json.dumps({
+                        'name': color.name,
+                        'css': css_color_code or '--',
+                        'srgb': [bool(hex_srgb), coord_srgb, hex_srgb or '--'],
+                        'adobergb': [bool(hex_srgb), coord_adobergb, hex_adobergb or '--'],
+                        'displayp3': [bool(hex_srgb), coord_displayp3, hex_displayp3 or '--'],
+                        'cmyk': [normal_cmyk_available, coord_cmyk or '--'],
+                        'xyy': [bool(coord_xyy), coord_xyy or '--'],
+                        'ssy': [bool(coord_ssy), coord_ssy or '--'],
+                        'isChromasample': is_chromasample
+                    }, separators=(',',':')).replace('"', '^')}"
                 >
                 </a>
-                <div class="color-display-label">{color.name}</div>
+                <div class="color-display-label"><b>SSY/</b>{color.name}{
+                    f'<i>#{gamut_hex}</i>' if gamut_hex else ''
+                }</div>
             </div>
         ''')
     
@@ -227,6 +230,8 @@ class HTMLColorCardWriter:
                 else:
                     # put a placeholder here
                     self.write('<div class="color-display whitespace"></div>')
+            if len(row) < 13:
+                self.write('<div class="color-display whitespace"></div>')
             self.write(f'''
                 </div>
             ''')
@@ -254,9 +259,15 @@ class HTMLColorCardWriter:
     '''
     Write to output file and terminate.
     '''
-    def commit(self):
+    def commit(self, gamut: str):
         self.buffer = self.buffer.replace('<!--PRINTABLE_COUNT-->', str(self.printable_count))
         self.buffer = self.buffer.replace('<!--DISPLAYABLE_COUNT-->', str(self.displayable_count))
         template_text = open('assets/template.html', 'r', encoding='utf-8').read()
-        self.fp.write(template_text.replace('<!--ROOT_CONTENT-->', self.buffer))
+        final_text = (
+            template_text
+            .replace('<!--ROOT_CONTENT-->', self.buffer)
+            .replace('<!--GAMUT_IDENTIFIER-->', gamut.lower())
+        )
+        final_text = htmlmin.minify(final_text, remove_comments=True, remove_empty_space=True)
+        self.fp.write(final_text)
         self.fp.close()

@@ -1,6 +1,6 @@
 # Sparks Lab SSY Color Book
 
-**English** | [简体中文](README_zh.md) || [Online Color Book](https://sparkslab.art/colors/) | [RGB Colors](palette/)
+**English** · [简体中文](README_zh.md) || [Online Color Book](https://sparkslab.art/colors/) · [RGB Colors](palette/)
 
 This is a homemade digital color book. It contains virtually all kinds of colors and aims to eliminate the hassle of manually formulating colors using the usually hard-to-use color picker when doing visual design.
 
@@ -11,6 +11,15 @@ This is a homemade digital color book. It contains virtually all kinds of colors
 > Chromium-based browsers will work correctly with a wide-gamut display as long as your display has the correct specifications in its ICC file.
 >
 > The color book uses CSS wide-gamut standards. If your browser support them, you can view whatever edition you want, but keep in mind that out-of-gamut colors will be inaccurate.
+
+## How to use
+
+You can view the **online color book** or download **RGB values** using the links on the top of the page.
+
+- In the **online color book**, left-click colors to see details. The color number will be automatically selected in this case. Right-clicking the colors will reveal their details too, with the current hex value of the color automatically selected. Press Ctrl+C to copy the selected text.
+- **RGB values** can be used in various design apps. For example, the `scl` format can be used in the Style3D series, and the `gpl` format can be used in many drawing apps, including GIMP and Inkscape.
+- Use the "Find in page" feature of your browser to find the color with the corresponding color number. You may also type in the hex value to find the corresponding color.
+- If you intend to use the online color book without an internet connection, you may visit the online color book first and save the webpage by pressing Ctrl+S.
 
 ## Brief instruction
 
