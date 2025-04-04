@@ -71,6 +71,15 @@ p.subtitle {
   margin-bottom: 1em;
   user-select: text;
 }
+.count-aug {
+  display: none;
+}
+body[data-aug-mode=show] .count-aug {
+  display: inline;
+}
+body[data-aug-mode=show] .count-non-aug {
+  display: none;
+}
 
 .select-color-space {
   margin-bottom: 1.5em;
@@ -147,11 +156,6 @@ p.subtitle {
 .plots-row>* {
   width: 0;
   flex: 1;
-  box-sizing: border-box;
-}
-.plots-row.large>* {
-  flex: 0;
-  flex-basis: calc(100% / 16);
   box-sizing: border-box;
 }
 
@@ -301,6 +305,13 @@ body[data-cmyk-mode=mark] :not(.undisplayable).cmyk-unavailable .color-display-b
 body[data-cmyk-mode=only] .cmyk-unavailable .color-display-block {
   box-shadow: unset !important;
   border: 0.07em solid #0000001A;
+}
+
+body:not([data-aug-mode=show]) .augment {
+  display: none;
+}
+body[data-aug-mode=show] .counter-augment {
+  display: none;
 }
 
 

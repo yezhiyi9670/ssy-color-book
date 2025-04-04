@@ -1,8 +1,9 @@
+from typing import Union, Literal
 from specsy import SpecSYColor, RGBTriplet, CMYKCoords
 import htmlmin
 import json
 class ColorEntry:
-    def __init__(self, color: SpecSYColor, name: str):
+    def __init__(self, color: SpecSYColor, name: str, is_aug: bool):
         self.origin = color
         self.srgb = color.get_srgb_triplet()
         self.adobergb = color.get_adobergb_triplet()
@@ -10,10 +11,11 @@ class ColorEntry:
         self.cmyk = color.get_cmyk_coords()
         self.name = name
         self.chromasample_flag = False
+        self.augment_flag = is_aug
     
     @staticmethod
     def chromasample_from(color: SpecSYColor, name: str):
-        ret = ColorEntry(color, name)
+        ret = ColorEntry(color, name, False)
         ret.cmyk = None
         ret.srgb = ret.srgb.get_chromasample()
         ret.adobergb = ret.adobergb.get_chromasample()
@@ -83,12 +85,18 @@ class ColorEntry:
     def is_dark(self):
         return self.origin.Y < 0.25
 
+class EmptyEntry:
+    def __init__(self, is_aug: Union[Literal['counter'], bool]):
+        self.augment_flag = is_aug
+
 class HTMLColorCardWriter:
     def __init__(self, filename: str):
         self.fp = open(filename, 'w', encoding='utf-8')
         self.buffer = ''
         self.displayable_count = 0
+        self.displayable_count_aug = 0
         self.printable_count = 0
+        self.printable_count_aug = 0
         self.filter_cmyk = False
         
     def set_filter_cmyk(self, s: bool):
@@ -139,7 +147,7 @@ class HTMLColorCardWriter:
     def edition_switcher(self, gamut: str):
         version = open('VERSION', 'r', encoding='utf-8').read().strip()
         self.write(f'''
-            <p class="select-color-space">v{version} | Display ''' + '{')
+            <p class="select-color-space">v{version}&#x3000;Edition ''' + '{')
         first = True
         for g in ['sRGB', 'DisplayP3', 'AdobeRGB']:
             if first:
@@ -150,12 +158,17 @@ class HTMLColorCardWriter:
                 self.write(f'''<a class="link-active" href="./{g.replace('/', '_')}.html">{g}</a>''')
             else:
                 self.write(f'''<a href="./{g.replace('/', '_')}.html">{g}</a>''')
-        self.write('} | Non-CMYK {')
+        self.write('}<br/>')
+        self.write('CMYK Unprintables {')
         self.write('''<a class="cmyk-mode" href="javascript:;" data-cmyk-mode="all">Show</a>''')
         self.write(' · ')
         self.write('''<a class="cmyk-mode link-active" href="javascript:;" data-cmyk-mode="mark">Mark</a>''')
         self.write(' · ')
         self.write('''<a class="cmyk-mode" href="javascript:;" data-cmyk-mode="only">Hide</a>''')
+        self.write('}&#x3000;Augmentations {')
+        self.write('''<a class="aug-mode link-active" href="javascript:;" data-aug-mode="hide">Off</a>''')
+        self.write(' · ')
+        self.write('''<a class="aug-mode" href="javascript:;" data-aug-mode="show">On</a>''')
         self.write('}</p>')
             
     def __color_display(self, color: ColorEntry, gamut: str):
@@ -168,15 +181,18 @@ class HTMLColorCardWriter:
         coord_xyy = color.xyy_coord()
         coord_ssy = color.ssy_coord()
         is_chromasample = color.is_chromasample()
+        is_aug = color.augment_flag
         normal_cmyk_available = color.cmyk and color.cmyk.is_normal()
         
         if self.filter_cmyk and not is_chromasample and not normal_cmyk_available:
             css_color_code = None
         
         if css_color_code and not is_chromasample:
-            self.displayable_count += 1
+            if not is_aug: self.displayable_count += 1
+            self.displayable_count_aug += 1
             if normal_cmyk_available:
-                self.printable_count += 1
+                if not is_aug: self.printable_count += 1
+                self.printable_count_aug += 1
         
         # uses box shadow instead of background color. Ensures correct printing.
         self.write(f'''
@@ -192,6 +208,8 @@ class HTMLColorCardWriter:
                 'displayp3-unavailable' if not color.displayp3.is_normal() else ''
             } {
                 'cmyk-unavailable' if (color.cmyk and not color.cmyk.is_normal()) else ''
+            } {
+                'augment' if (color.augment_flag) else ''
             }">
                 <a
                     aria-label="{color.name}"
@@ -219,17 +237,22 @@ class HTMLColorCardWriter:
     def __color_group_chromasample(self, chromasample: ColorEntry, gamut: str):
         self.__color_display(chromasample, gamut)
     
-    def __color_group_plots(self, plots: list[list[ColorEntry]], gamut: str):
+    def __color_group_plots(self, plots: list[list[Union[ColorEntry, EmptyEntry]]], gamut: str):
         for row in plots:
             self.write(f'''
-                <div class="plots-row {'large' if len(row) >= 16 else ''}">
+                <div class="plots-row {'augment' if all([entry.augment_flag != False for entry in row]) else ''}">
             ''')
             for entry in row:
-                if entry:
+                if not isinstance(entry, EmptyEntry):
                     self.__color_display(entry, gamut)
                 else:
                     # put a placeholder here
-                    self.write('<div class="color-display whitespace"></div>')
+                    if entry.augment_flag == True:
+                        self.write('<div class="color-display whitespace augment"></div>')
+                    elif entry.augment_flag == 'counter':
+                        self.write('<div class="color-display whitespace counter-augment"></div>')
+                    else:
+                        self.write('<div class="color-display whitespace"></div>')
             if len(row) < 13:
                 self.write('<div class="color-display whitespace"></div>')
             self.write(f'''
@@ -239,7 +262,7 @@ class HTMLColorCardWriter:
     '''
     Add color group.
     '''
-    def color_group(self, chromasample: ColorEntry, plots: list[list[ColorEntry]], gamut: str):
+    def color_group(self, chromasample: ColorEntry, plots: list[list[Union[ColorEntry, EmptyEntry]]], gamut: str):
         ColorEntry.get_css_specifier(gamut)
         self.write(f'''
             <div class="color-group">
@@ -262,6 +285,8 @@ class HTMLColorCardWriter:
     def commit(self, gamut: str):
         self.buffer = self.buffer.replace('<!--PRINTABLE_COUNT-->', str(self.printable_count))
         self.buffer = self.buffer.replace('<!--DISPLAYABLE_COUNT-->', str(self.displayable_count))
+        self.buffer = self.buffer.replace('<!--PRINTABLE_COUNT_AUG-->', str(self.printable_count_aug))
+        self.buffer = self.buffer.replace('<!--DISPLAYABLE_COUNT_AUG-->', str(self.displayable_count_aug))
         template_text = open('assets/template.html', 'r', encoding='utf-8').read()
         final_text = (
             template_text

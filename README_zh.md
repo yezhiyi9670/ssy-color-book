@@ -6,7 +6,7 @@
 
 <p><img alt="Screenshot" src="./README_assets/screenshot.png" width=50%></p>
 
-> ⚠️ **Firefox 对广色域显示器的支持不完整。如果你使用 Firefox，请确保将显示器设置为 sRGB 模式。**
+> ⚠️ **Firefox 对广色域显示器的支持不完整。如果你使用 Firefox，请确保将显示器设置为 sRGB 模式，或者在 `about:config` 中强制使用正确的色彩空间。**
 >
 > 基于 Chromium 的浏览器可以正常支持广色域显示器，前提是显示器的 ICC 文件中具有正确的色域信息。
 >

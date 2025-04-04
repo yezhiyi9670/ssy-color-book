@@ -15,9 +15,20 @@ class SpecSYColor():
 
     def __repr__(self):
         return 'SpecSYColor(spec=%d, saturation=%.2f, Y=%.2f)' % (self.spec, self.saturation, self.Y)
-    
+
     @staticmethod
     def from_code(code: str):
+        def num_digit_cvt(digit: str):
+            if digit.lower() == 'n':
+                return 0.25
+            if digit.lower() == 'r':
+                return 0.5
+            if digit.lower() == 's':
+                return 1.5
+            if digit.lower() == 't':
+                return 2.5
+            return int(digit, base=13)
+
         assert len(code) == 5 or len(code) == 2, 'Code should be either 5-digits or 2-digits.'
         spec = 560
         if len(code) == 5:
@@ -29,9 +40,9 @@ class SpecSYColor():
         else:
             assert code[0] == '0', '2-digits code must have saturation 0'
         
-        saturation = (int(code[0], base=13) / 12) ** 1.4
+        saturation = (num_digit_cvt(code[0]) / 12) ** 1.4
         
-        Y = int(code[1], base=13) - 2
+        Y = num_digit_cvt(code[1]) - 2
         if -2 <= Y <= 2:
             Y = Y / 2 + 1
         Y /= 10

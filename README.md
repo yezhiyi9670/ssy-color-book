@@ -6,7 +6,7 @@ This is a homemade digital color book. It contains virtually all kinds of colors
 
 <p><img alt="Screenshot" src="./README_assets/screenshot.png" width=50%></p>
 
-> ⚠️ **Firefox does not have complete support for wide-gamut displays. If you use Firefox, please set your display to sRGB.**
+> ⚠️ **Firefox does not have complete support for wide-gamut displays. If you use Firefox, please set your display to sRGB, or force the correct color space in `about:config`.**
 >
 > Chromium-based browsers will work correctly with a wide-gamut display as long as your display has the correct specifications in its ICC file.
 >

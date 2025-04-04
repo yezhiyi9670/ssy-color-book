@@ -173,4 +173,18 @@
       set_cmyk_mode(element.getAttribute('data-cmyk-mode'))
     })
   })
+
+  document.body.setAttribute('data-aug-mode', 'hide')
+  function set_aug_mode(flag) {
+    document.body.setAttribute('data-aug-mode', flag)
+    document.querySelectorAll('.aug-mode').forEach(element => {
+      element.classList.remove('link-active')
+    })
+    document.querySelector(`.aug-mode[data-aug-mode=${flag}]`).classList.add('link-active')
+  }
+  document.querySelectorAll('.aug-mode').forEach(element => {
+    element.addEventListener('click', () => {
+      set_aug_mode(element.getAttribute('data-aug-mode'))
+    })
+  })
 }})()
