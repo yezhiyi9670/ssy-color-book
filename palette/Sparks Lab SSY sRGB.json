@@ -76,9 +76,19 @@
             "name": "SSY/sRGB 0A"
         },
         {
+            "colorName": "#EDEDED",
+            "company": 0,
+            "name": "SSY/sRGB 0y"
+        },
+        {
             "colorName": "#F3F3F3",
             "company": 0,
             "name": "SSY/sRGB 0B"
+        },
+        {
+            "colorName": "#F9F9F9",
+            "company": 0,
+            "name": "SSY/sRGB 0z"
         },
         {
             "colorName": "#FFFFFF",
@@ -696,6 +706,21 @@
             "name": "SSY/sRGB 4002A"
         },
         {
+            "colorName": "#EEEDF1",
+            "company": 0,
+            "name": "SSY/sRGB 400ry"
+        },
+        {
+            "colorName": "#EFECF6",
+            "company": 0,
+            "name": "SSY/sRGB 4001y"
+        },
+        {
+            "colorName": "#F0EBFD",
+            "company": 0,
+            "name": "SSY/sRGB 400sy"
+        },
+        {
             "colorName": "#F4F3F7",
             "company": 0,
             "name": "SSY/sRGB 400rB"
@@ -704,6 +729,11 @@
             "colorName": "#F5F2FC",
             "company": 0,
             "name": "SSY/sRGB 4001B"
+        },
+        {
+            "colorName": "#FAF9FD",
+            "company": 0,
+            "name": "SSY/sRGB 400rz"
         },
         {
             "colorName": "#1D1D1F",
@@ -1356,6 +1386,21 @@
             "name": "SSY/sRGB 4652A"
         },
         {
+            "colorName": "#EDEDF0",
+            "company": 0,
+            "name": "SSY/sRGB 465ry"
+        },
+        {
+            "colorName": "#EDEDF6",
+            "company": 0,
+            "name": "SSY/sRGB 4651y"
+        },
+        {
+            "colorName": "#ECECFC",
+            "company": 0,
+            "name": "SSY/sRGB 465sy"
+        },
+        {
             "colorName": "#F3F3F7",
             "company": 0,
             "name": "SSY/sRGB 465rB"
@@ -1364,6 +1409,11 @@
             "colorName": "#F3F3FC",
             "company": 0,
             "name": "SSY/sRGB 4651B"
+        },
+        {
+            "colorName": "#F9F9FD",
+            "company": 0,
+            "name": "SSY/sRGB 465rz"
         },
         {
             "colorName": "#1D1D1E",
@@ -2101,6 +2151,26 @@
             "name": "SSY/sRGB 480tA"
         },
         {
+            "colorName": "#ECEEF0",
+            "company": 0,
+            "name": "SSY/sRGB 480ry"
+        },
+        {
+            "colorName": "#E9EEF4",
+            "company": 0,
+            "name": "SSY/sRGB 4801y"
+        },
+        {
+            "colorName": "#E6EEF9",
+            "company": 0,
+            "name": "SSY/sRGB 480sy"
+        },
+        {
+            "colorName": "#E1EFFF",
+            "company": 0,
+            "name": "SSY/sRGB 4802y"
+        },
+        {
             "colorName": "#F2F4F6",
             "company": 0,
             "name": "SSY/sRGB 480rB"
@@ -2109,6 +2179,11 @@
             "colorName": "#EFF4FA",
             "company": 0,
             "name": "SSY/sRGB 4801B"
+        },
+        {
+            "colorName": "#F8FAFC",
+            "company": 0,
+            "name": "SSY/sRGB 480rz"
         },
         {
             "colorName": "#1C1E1E",
@@ -2891,6 +2966,26 @@
             "name": "SSY/sRGB 4863A"
         },
         {
+            "colorName": "#EBEEEF",
+            "company": 0,
+            "name": "SSY/sRGB 486ry"
+        },
+        {
+            "colorName": "#E7EFF2",
+            "company": 0,
+            "name": "SSY/sRGB 4861y"
+        },
+        {
+            "colorName": "#E1F0F6",
+            "company": 0,
+            "name": "SSY/sRGB 486sy"
+        },
+        {
+            "colorName": "#DAF1FB",
+            "company": 0,
+            "name": "SSY/sRGB 4862y"
+        },
+        {
             "colorName": "#F1F4F5",
             "company": 0,
             "name": "SSY/sRGB 486rB"
@@ -2904,6 +2999,16 @@
             "colorName": "#E7F6FC",
             "company": 0,
             "name": "SSY/sRGB 486sB"
+        },
+        {
+            "colorName": "#F7FAFB",
+            "company": 0,
+            "name": "SSY/sRGB 486rz"
+        },
+        {
+            "colorName": "#F2FBFF",
+            "company": 0,
+            "name": "SSY/sRGB 4861z"
         },
         {
             "colorName": "#1C1E1E",
@@ -3751,6 +3856,36 @@
             "name": "SSY/sRGB 4904A"
         },
         {
+            "colorName": "#EAEEEF",
+            "company": 0,
+            "name": "SSY/sRGB 490ry"
+        },
+        {
+            "colorName": "#E4F0F1",
+            "company": 0,
+            "name": "SSY/sRGB 4901y"
+        },
+        {
+            "colorName": "#DCF2F3",
+            "company": 0,
+            "name": "SSY/sRGB 490sy"
+        },
+        {
+            "colorName": "#D3F4F6",
+            "company": 0,
+            "name": "SSY/sRGB 4902y"
+        },
+        {
+            "colorName": "#C8F6F9",
+            "company": 0,
+            "name": "SSY/sRGB 490ty"
+        },
+        {
+            "colorName": "#BBF8FD",
+            "company": 0,
+            "name": "SSY/sRGB 4903y"
+        },
+        {
             "colorName": "#F0F4F5",
             "company": 0,
             "name": "SSY/sRGB 490rB"
@@ -3769,6 +3904,16 @@
             "colorName": "#D9FAFC",
             "company": 0,
             "name": "SSY/sRGB 4902B"
+        },
+        {
+            "colorName": "#F6FAFB",
+            "company": 0,
+            "name": "SSY/sRGB 490rz"
+        },
+        {
+            "colorName": "#EFFCFD",
+            "company": 0,
+            "name": "SSY/sRGB 4901z"
         },
         {
             "colorName": "#1B1E1E",
@@ -4636,6 +4781,36 @@
             "name": "SSY/sRGB 4934A"
         },
         {
+            "colorName": "#E9EFEE",
+            "company": 0,
+            "name": "SSY/sRGB 493ry"
+        },
+        {
+            "colorName": "#E2F0EF",
+            "company": 0,
+            "name": "SSY/sRGB 4931y"
+        },
+        {
+            "colorName": "#D9F3F1",
+            "company": 0,
+            "name": "SSY/sRGB 493sy"
+        },
+        {
+            "colorName": "#CEF5F3",
+            "company": 0,
+            "name": "SSY/sRGB 4932y"
+        },
+        {
+            "colorName": "#C2F8F5",
+            "company": 0,
+            "name": "SSY/sRGB 493ty"
+        },
+        {
+            "colorName": "#B2FBF6",
+            "company": 0,
+            "name": "SSY/sRGB 4933y"
+        },
+        {
             "colorName": "#EFF5F4",
             "company": 0,
             "name": "SSY/sRGB 493rB"
@@ -4659,6 +4834,21 @@
             "colorName": "#C7FEFB",
             "company": 0,
             "name": "SSY/sRGB 493tB"
+        },
+        {
+            "colorName": "#F5FAFA",
+            "company": 0,
+            "name": "SSY/sRGB 493rz"
+        },
+        {
+            "colorName": "#EEFCFB",
+            "company": 0,
+            "name": "SSY/sRGB 4931z"
+        },
+        {
+            "colorName": "#E4FFFD",
+            "company": 0,
+            "name": "SSY/sRGB 493sz"
         },
         {
             "colorName": "#1B1E1D",
@@ -5521,6 +5711,36 @@
             "name": "SSY/sRGB 4964A"
         },
         {
+            "colorName": "#E9EFEE",
+            "company": 0,
+            "name": "SSY/sRGB 496ry"
+        },
+        {
+            "colorName": "#E0F1EE",
+            "company": 0,
+            "name": "SSY/sRGB 4961y"
+        },
+        {
+            "colorName": "#D6F4EE",
+            "company": 0,
+            "name": "SSY/sRGB 496sy"
+        },
+        {
+            "colorName": "#C9F7EF",
+            "company": 0,
+            "name": "SSY/sRGB 4962y"
+        },
+        {
+            "colorName": "#BAFAEF",
+            "company": 0,
+            "name": "SSY/sRGB 496ty"
+        },
+        {
+            "colorName": "#A8FDF0",
+            "company": 0,
+            "name": "SSY/sRGB 4963y"
+        },
+        {
             "colorName": "#EEF5F4",
             "company": 0,
             "name": "SSY/sRGB 496rB"
@@ -5539,6 +5759,16 @@
             "colorName": "#CEFDF5",
             "company": 0,
             "name": "SSY/sRGB 4962B"
+        },
+        {
+            "colorName": "#F4FBFA",
+            "company": 0,
+            "name": "SSY/sRGB 496rz"
+        },
+        {
+            "colorName": "#ECFDFA",
+            "company": 0,
+            "name": "SSY/sRGB 4961z"
         },
         {
             "colorName": "#1B1E1D",
@@ -6386,6 +6616,31 @@
             "name": "SSY/sRGB 5003A"
         },
         {
+            "colorName": "#E8EFED",
+            "company": 0,
+            "name": "SSY/sRGB 500ry"
+        },
+        {
+            "colorName": "#DEF2EC",
+            "company": 0,
+            "name": "SSY/sRGB 5001y"
+        },
+        {
+            "colorName": "#D1F5EB",
+            "company": 0,
+            "name": "SSY/sRGB 500sy"
+        },
+        {
+            "colorName": "#C2F9E9",
+            "company": 0,
+            "name": "SSY/sRGB 5002y"
+        },
+        {
+            "colorName": "#AFFDE8",
+            "company": 0,
+            "name": "SSY/sRGB 500ty"
+        },
+        {
             "colorName": "#EDF5F3",
             "company": 0,
             "name": "SSY/sRGB 500rB"
@@ -6399,6 +6654,16 @@
             "colorName": "#D6FCF1",
             "company": 0,
             "name": "SSY/sRGB 500sB"
+        },
+        {
+            "colorName": "#F3FBF9",
+            "company": 0,
+            "name": "SSY/sRGB 500rz"
+        },
+        {
+            "colorName": "#E9FEF8",
+            "company": 0,
+            "name": "SSY/sRGB 5001z"
         },
         {
             "colorName": "#1A1E1C",
@@ -7246,6 +7511,26 @@
             "name": "SSY/sRGB 5073A"
         },
         {
+            "colorName": "#E6F0EB",
+            "company": 0,
+            "name": "SSY/sRGB 507ry"
+        },
+        {
+            "colorName": "#DBF3E8",
+            "company": 0,
+            "name": "SSY/sRGB 5071y"
+        },
+        {
+            "colorName": "#CCF7E5",
+            "company": 0,
+            "name": "SSY/sRGB 507sy"
+        },
+        {
+            "colorName": "#BAFBE1",
+            "company": 0,
+            "name": "SSY/sRGB 5072y"
+        },
+        {
             "colorName": "#ECF6F1",
             "company": 0,
             "name": "SSY/sRGB 507rB"
@@ -7259,6 +7544,11 @@
             "colorName": "#D1FDEB",
             "company": 0,
             "name": "SSY/sRGB 507sB"
+        },
+        {
+            "colorName": "#F2FCF7",
+            "company": 0,
+            "name": "SSY/sRGB 507rz"
         },
         {
             "colorName": "#1C1E1C",
@@ -8166,6 +8456,41 @@
             "name": "SSY/sRGB 5505A"
         },
         {
+            "colorName": "#EAEFEA",
+            "company": 0,
+            "name": "SSY/sRGB 550ry"
+        },
+        {
+            "colorName": "#E6F0E6",
+            "company": 0,
+            "name": "SSY/sRGB 5501y"
+        },
+        {
+            "colorName": "#E0F2E0",
+            "company": 0,
+            "name": "SSY/sRGB 550sy"
+        },
+        {
+            "colorName": "#DAF5D9",
+            "company": 0,
+            "name": "SSY/sRGB 5502y"
+        },
+        {
+            "colorName": "#D3F7D2",
+            "company": 0,
+            "name": "SSY/sRGB 550ty"
+        },
+        {
+            "colorName": "#CBF9CA",
+            "company": 0,
+            "name": "SSY/sRGB 5503y"
+        },
+        {
+            "colorName": "#BBFEB9",
+            "company": 0,
+            "name": "SSY/sRGB 5504y"
+        },
+        {
             "colorName": "#F0F5F0",
             "company": 0,
             "name": "SSY/sRGB 550rB"
@@ -8189,6 +8514,21 @@
             "colorName": "#D8FDD7",
             "company": 0,
             "name": "SSY/sRGB 550tB"
+        },
+        {
+            "colorName": "#F6FBF6",
+            "company": 0,
+            "name": "SSY/sRGB 550rz"
+        },
+        {
+            "colorName": "#F1FCF1",
+            "company": 0,
+            "name": "SSY/sRGB 5501z"
+        },
+        {
+            "colorName": "#EBFFEB",
+            "company": 0,
+            "name": "SSY/sRGB 550sz"
         },
         {
             "colorName": "#1D1E1C",
@@ -9121,6 +9461,51 @@
             "name": "SSY/sRGB 5609A"
         },
         {
+            "colorName": "#ECEEEB",
+            "company": 0,
+            "name": "SSY/sRGB 560ry"
+        },
+        {
+            "colorName": "#EAEFE6",
+            "company": 0,
+            "name": "SSY/sRGB 5601y"
+        },
+        {
+            "colorName": "#E7F0E1",
+            "company": 0,
+            "name": "SSY/sRGB 560sy"
+        },
+        {
+            "colorName": "#E4F2DB",
+            "company": 0,
+            "name": "SSY/sRGB 5602y"
+        },
+        {
+            "colorName": "#E1F3D4",
+            "company": 0,
+            "name": "SSY/sRGB 560ty"
+        },
+        {
+            "colorName": "#DDF5CD",
+            "company": 0,
+            "name": "SSY/sRGB 5603y"
+        },
+        {
+            "colorName": "#D6F8BD",
+            "company": 0,
+            "name": "SSY/sRGB 5604y"
+        },
+        {
+            "colorName": "#CFFBAC",
+            "company": 0,
+            "name": "SSY/sRGB 5605y"
+        },
+        {
+            "colorName": "#C8FD99",
+            "company": 0,
+            "name": "SSY/sRGB 5606y"
+        },
+        {
             "colorName": "#F2F4F1",
             "company": 0,
             "name": "SSY/sRGB 560rB"
@@ -9154,6 +9539,26 @@
             "colorName": "#DCFEC2",
             "company": 0,
             "name": "SSY/sRGB 5604B"
+        },
+        {
+            "colorName": "#F8FAF6",
+            "company": 0,
+            "name": "SSY/sRGB 560rz"
+        },
+        {
+            "colorName": "#F6FBF2",
+            "company": 0,
+            "name": "SSY/sRGB 5601z"
+        },
+        {
+            "colorName": "#F3FCEC",
+            "company": 0,
+            "name": "SSY/sRGB 560sz"
+        },
+        {
+            "colorName": "#F0FEE6",
+            "company": 0,
+            "name": "SSY/sRGB 5602z"
         },
         {
             "colorName": "#1D1E1C",
@@ -10101,6 +10506,71 @@
             "name": "SSY/sRGB 565CA"
         },
         {
+            "colorName": "#EDEEEB",
+            "company": 0,
+            "name": "SSY/sRGB 565ry"
+        },
+        {
+            "colorName": "#ECEFE7",
+            "company": 0,
+            "name": "SSY/sRGB 5651y"
+        },
+        {
+            "colorName": "#EBEFE2",
+            "company": 0,
+            "name": "SSY/sRGB 565sy"
+        },
+        {
+            "colorName": "#E9F0DC",
+            "company": 0,
+            "name": "SSY/sRGB 5652y"
+        },
+        {
+            "colorName": "#E8F1D6",
+            "company": 0,
+            "name": "SSY/sRGB 565ty"
+        },
+        {
+            "colorName": "#E6F2CF",
+            "company": 0,
+            "name": "SSY/sRGB 5653y"
+        },
+        {
+            "colorName": "#E3F4C0",
+            "company": 0,
+            "name": "SSY/sRGB 5654y"
+        },
+        {
+            "colorName": "#E0F6AF",
+            "company": 0,
+            "name": "SSY/sRGB 5655y"
+        },
+        {
+            "colorName": "#DDF89C",
+            "company": 0,
+            "name": "SSY/sRGB 5656y"
+        },
+        {
+            "colorName": "#DAFA87",
+            "company": 0,
+            "name": "SSY/sRGB 5657y"
+        },
+        {
+            "colorName": "#D7FC6F",
+            "company": 0,
+            "name": "SSY/sRGB 5658y"
+        },
+        {
+            "colorName": "#D4FD4E",
+            "company": 0,
+            "name": "SSY/sRGB 5659y"
+        },
+        {
+            "colorName": "#D1FF01",
+            "company": 0,
+            "name": "SSY/sRGB 565Ay"
+        },
+        {
             "colorName": "#F3F4F1",
             "company": 0,
             "name": "SSY/sRGB 565rB"
@@ -10144,6 +10614,36 @@
             "colorName": "#E3FEA1",
             "company": 0,
             "name": "SSY/sRGB 5656B"
+        },
+        {
+            "colorName": "#F9FAF7",
+            "company": 0,
+            "name": "SSY/sRGB 565rz"
+        },
+        {
+            "colorName": "#F8FBF2",
+            "company": 0,
+            "name": "SSY/sRGB 5651z"
+        },
+        {
+            "colorName": "#F6FBED",
+            "company": 0,
+            "name": "SSY/sRGB 565sz"
+        },
+        {
+            "colorName": "#F5FCE7",
+            "company": 0,
+            "name": "SSY/sRGB 5652z"
+        },
+        {
+            "colorName": "#F3FDE0",
+            "company": 0,
+            "name": "SSY/sRGB 565tz"
+        },
+        {
+            "colorName": "#F2FED9",
+            "company": 0,
+            "name": "SSY/sRGB 5653z"
         },
         {
             "colorName": "#1D1D1C",
@@ -11091,6 +11591,81 @@
             "name": "SSY/sRGB 570CA"
         },
         {
+            "colorName": "#EEEEEB",
+            "company": 0,
+            "name": "SSY/sRGB 570ry"
+        },
+        {
+            "colorName": "#EEEEE7",
+            "company": 0,
+            "name": "SSY/sRGB 5701y"
+        },
+        {
+            "colorName": "#EEEEE2",
+            "company": 0,
+            "name": "SSY/sRGB 570sy"
+        },
+        {
+            "colorName": "#EEEFDD",
+            "company": 0,
+            "name": "SSY/sRGB 5702y"
+        },
+        {
+            "colorName": "#EEEFD7",
+            "company": 0,
+            "name": "SSY/sRGB 570ty"
+        },
+        {
+            "colorName": "#EFF0D0",
+            "company": 0,
+            "name": "SSY/sRGB 5703y"
+        },
+        {
+            "colorName": "#EFF1C2",
+            "company": 0,
+            "name": "SSY/sRGB 5704y"
+        },
+        {
+            "colorName": "#F0F2B2",
+            "company": 0,
+            "name": "SSY/sRGB 5705y"
+        },
+        {
+            "colorName": "#F0F3A0",
+            "company": 0,
+            "name": "SSY/sRGB 5706y"
+        },
+        {
+            "colorName": "#F1F48C",
+            "company": 0,
+            "name": "SSY/sRGB 5707y"
+        },
+        {
+            "colorName": "#F1F474",
+            "company": 0,
+            "name": "SSY/sRGB 5708y"
+        },
+        {
+            "colorName": "#F2F555",
+            "company": 0,
+            "name": "SSY/sRGB 5709y"
+        },
+        {
+            "colorName": "#F2F61B",
+            "company": 0,
+            "name": "SSY/sRGB 570Ay"
+        },
+        {
+            "colorName": "#F3F700",
+            "company": 0,
+            "name": "SSY/sRGB 570By"
+        },
+        {
+            "colorName": "#F3F800",
+            "company": 0,
+            "name": "SSY/sRGB 570Cy"
+        },
+        {
             "colorName": "#F4F4F1",
             "company": 0,
             "name": "SSY/sRGB 570rB"
@@ -11164,6 +11739,51 @@
             "colorName": "#F9FE00",
             "company": 0,
             "name": "SSY/sRGB 570CB"
+        },
+        {
+            "colorName": "#F9FAF7",
+            "company": 0,
+            "name": "SSY/sRGB 570rz"
+        },
+        {
+            "colorName": "#FAFAF3",
+            "company": 0,
+            "name": "SSY/sRGB 5701z"
+        },
+        {
+            "colorName": "#FAFAEE",
+            "company": 0,
+            "name": "SSY/sRGB 570sz"
+        },
+        {
+            "colorName": "#FAFBE8",
+            "company": 0,
+            "name": "SSY/sRGB 5702z"
+        },
+        {
+            "colorName": "#FAFBE2",
+            "company": 0,
+            "name": "SSY/sRGB 570tz"
+        },
+        {
+            "colorName": "#FBFCDB",
+            "company": 0,
+            "name": "SSY/sRGB 5703z"
+        },
+        {
+            "colorName": "#FBFDCC",
+            "company": 0,
+            "name": "SSY/sRGB 5704z"
+        },
+        {
+            "colorName": "#FCFEBB",
+            "company": 0,
+            "name": "SSY/sRGB 5705z"
+        },
+        {
+            "colorName": "#FCFFA8",
+            "company": 0,
+            "name": "SSY/sRGB 5706z"
         },
         {
             "colorName": "#1E1D1C",
@@ -12101,6 +12721,56 @@
             "name": "SSY/sRGB 573AA"
         },
         {
+            "colorName": "#EEEDEB",
+            "company": 0,
+            "name": "SSY/sRGB 573ry"
+        },
+        {
+            "colorName": "#EFEEE7",
+            "company": 0,
+            "name": "SSY/sRGB 5731y"
+        },
+        {
+            "colorName": "#F0EEE3",
+            "company": 0,
+            "name": "SSY/sRGB 573sy"
+        },
+        {
+            "colorName": "#F1EEDE",
+            "company": 0,
+            "name": "SSY/sRGB 5732y"
+        },
+        {
+            "colorName": "#F2EED8",
+            "company": 0,
+            "name": "SSY/sRGB 573ty"
+        },
+        {
+            "colorName": "#F4EED1",
+            "company": 0,
+            "name": "SSY/sRGB 5733y"
+        },
+        {
+            "colorName": "#F6EEC3",
+            "company": 0,
+            "name": "SSY/sRGB 5734y"
+        },
+        {
+            "colorName": "#F9EFB4",
+            "company": 0,
+            "name": "SSY/sRGB 5735y"
+        },
+        {
+            "colorName": "#FCEFA2",
+            "company": 0,
+            "name": "SSY/sRGB 5736y"
+        },
+        {
+            "colorName": "#FEEF8E",
+            "company": 0,
+            "name": "SSY/sRGB 5737y"
+        },
+        {
             "colorName": "#F4F4F1",
             "company": 0,
             "name": "SSY/sRGB 573rB"
@@ -12134,6 +12804,31 @@
             "colorName": "#FDF4C9",
             "company": 0,
             "name": "SSY/sRGB 5734B"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/sRGB 573rz"
+        },
+        {
+            "colorName": "#FBF9F3",
+            "company": 0,
+            "name": "SSY/sRGB 5731z"
+        },
+        {
+            "colorName": "#FCFAEE",
+            "company": 0,
+            "name": "SSY/sRGB 573sz"
+        },
+        {
+            "colorName": "#FDFAE9",
+            "company": 0,
+            "name": "SSY/sRGB 5732z"
+        },
+        {
+            "colorName": "#FFFAE3",
+            "company": 0,
+            "name": "SSY/sRGB 573tz"
         },
         {
             "colorName": "#1E1D1C",
@@ -13026,6 +13721,36 @@
             "name": "SSY/sRGB 5775A"
         },
         {
+            "colorName": "#EFEDEB",
+            "company": 0,
+            "name": "SSY/sRGB 577ry"
+        },
+        {
+            "colorName": "#F0EDE8",
+            "company": 0,
+            "name": "SSY/sRGB 5771y"
+        },
+        {
+            "colorName": "#F3EDE3",
+            "company": 0,
+            "name": "SSY/sRGB 577sy"
+        },
+        {
+            "colorName": "#F5EDDE",
+            "company": 0,
+            "name": "SSY/sRGB 5772y"
+        },
+        {
+            "colorName": "#F7ECD9",
+            "company": 0,
+            "name": "SSY/sRGB 577ty"
+        },
+        {
+            "colorName": "#FAECD3",
+            "company": 0,
+            "name": "SSY/sRGB 5773y"
+        },
+        {
             "colorName": "#F5F3F1",
             "company": 0,
             "name": "SSY/sRGB 577rB"
@@ -13049,6 +13774,21 @@
             "colorName": "#FEF2DE",
             "company": 0,
             "name": "SSY/sRGB 577tB"
+        },
+        {
+            "colorName": "#FBF9F7",
+            "company": 0,
+            "name": "SSY/sRGB 577rz"
+        },
+        {
+            "colorName": "#FCF9F3",
+            "company": 0,
+            "name": "SSY/sRGB 5771z"
+        },
+        {
+            "colorName": "#FFF9EF",
+            "company": 0,
+            "name": "SSY/sRGB 577sz"
         },
         {
             "colorName": "#1E1D1C",
@@ -13906,6 +14646,36 @@
             "name": "SSY/sRGB 5803A"
         },
         {
+            "colorName": "#EFEDEB",
+            "company": 0,
+            "name": "SSY/sRGB 580ry"
+        },
+        {
+            "colorName": "#F1EDE8",
+            "company": 0,
+            "name": "SSY/sRGB 5801y"
+        },
+        {
+            "colorName": "#F4ECE4",
+            "company": 0,
+            "name": "SSY/sRGB 580sy"
+        },
+        {
+            "colorName": "#F8ECDF",
+            "company": 0,
+            "name": "SSY/sRGB 5802y"
+        },
+        {
+            "colorName": "#FBEBDA",
+            "company": 0,
+            "name": "SSY/sRGB 580ty"
+        },
+        {
+            "colorName": "#FFEAD4",
+            "company": 0,
+            "name": "SSY/sRGB 5803y"
+        },
+        {
             "colorName": "#F5F3F1",
             "company": 0,
             "name": "SSY/sRGB 580rB"
@@ -13924,6 +14694,16 @@
             "colorName": "#FEF2E5",
             "company": 0,
             "name": "SSY/sRGB 5802B"
+        },
+        {
+            "colorName": "#FBF9F7",
+            "company": 0,
+            "name": "SSY/sRGB 580rz"
+        },
+        {
+            "colorName": "#FEF9F4",
+            "company": 0,
+            "name": "SSY/sRGB 5801z"
         },
         {
             "colorName": "#1E1D1C",
@@ -14741,6 +15521,26 @@
             "name": "SSY/sRGB 5853A"
         },
         {
+            "colorName": "#F0EDEB",
+            "company": 0,
+            "name": "SSY/sRGB 585ry"
+        },
+        {
+            "colorName": "#F3ECE8",
+            "company": 0,
+            "name": "SSY/sRGB 5851y"
+        },
+        {
+            "colorName": "#F7EBE4",
+            "company": 0,
+            "name": "SSY/sRGB 585sy"
+        },
+        {
+            "colorName": "#FCEAE0",
+            "company": 0,
+            "name": "SSY/sRGB 5852y"
+        },
+        {
             "colorName": "#F6F3F1",
             "company": 0,
             "name": "SSY/sRGB 585rB"
@@ -14754,6 +15554,11 @@
             "colorName": "#FEF1EA",
             "company": 0,
             "name": "SSY/sRGB 585sB"
+        },
+        {
+            "colorName": "#FCF9F7",
+            "company": 0,
+            "name": "SSY/sRGB 585rz"
         },
         {
             "colorName": "#1F1D1C",
@@ -15526,6 +16331,21 @@
             "name": "SSY/sRGB 5902A"
         },
         {
+            "colorName": "#F0EDEC",
+            "company": 0,
+            "name": "SSY/sRGB 590ry"
+        },
+        {
+            "colorName": "#F5ECE9",
+            "company": 0,
+            "name": "SSY/sRGB 5901y"
+        },
+        {
+            "colorName": "#FAEAE5",
+            "company": 0,
+            "name": "SSY/sRGB 590sy"
+        },
+        {
             "colorName": "#F6F3F2",
             "company": 0,
             "name": "SSY/sRGB 590rB"
@@ -15534,6 +16354,11 @@
             "colorName": "#FBF2EF",
             "company": 0,
             "name": "SSY/sRGB 5901B"
+        },
+        {
+            "colorName": "#FCF9F7",
+            "company": 0,
+            "name": "SSY/sRGB 590rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -16286,6 +17111,21 @@
             "name": "SSY/sRGB 5952A"
         },
         {
+            "colorName": "#F1EDEC",
+            "company": 0,
+            "name": "SSY/sRGB 595ry"
+        },
+        {
+            "colorName": "#F6EBE9",
+            "company": 0,
+            "name": "SSY/sRGB 5951y"
+        },
+        {
+            "colorName": "#FDE9E6",
+            "company": 0,
+            "name": "SSY/sRGB 595sy"
+        },
+        {
             "colorName": "#F7F3F2",
             "company": 0,
             "name": "SSY/sRGB 595rB"
@@ -16294,6 +17134,11 @@
             "colorName": "#FDF1EF",
             "company": 0,
             "name": "SSY/sRGB 5951B"
+        },
+        {
+            "colorName": "#FDF8F8",
+            "company": 0,
+            "name": "SSY/sRGB 595rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -17016,6 +17861,16 @@
             "name": "SSY/sRGB 600sA"
         },
         {
+            "colorName": "#F1ECEC",
+            "company": 0,
+            "name": "SSY/sRGB 600ry"
+        },
+        {
+            "colorName": "#F8EBE9",
+            "company": 0,
+            "name": "SSY/sRGB 6001y"
+        },
+        {
             "colorName": "#F8F2F2",
             "company": 0,
             "name": "SSY/sRGB 600rB"
@@ -17024,6 +17879,11 @@
             "colorName": "#FEF1EF",
             "company": 0,
             "name": "SSY/sRGB 6001B"
+        },
+        {
+            "colorName": "#FDF8F8",
+            "company": 0,
+            "name": "SSY/sRGB 600rz"
         },
         {
             "colorName": "#201D1D",
@@ -17701,9 +18561,24 @@
             "name": "SSY/sRGB 620sA"
         },
         {
+            "colorName": "#F3ECEC",
+            "company": 0,
+            "name": "SSY/sRGB 620ry"
+        },
+        {
+            "colorName": "#FBE9EA",
+            "company": 0,
+            "name": "SSY/sRGB 6201y"
+        },
+        {
             "colorName": "#F9F2F2",
             "company": 0,
             "name": "SSY/sRGB 620rB"
+        },
+        {
+            "colorName": "#FFF8F8",
+            "company": 0,
+            "name": "SSY/sRGB 620rz"
         },
         {
             "colorName": "#201D1D",
@@ -18361,9 +19236,24 @@
             "name": "SSY/sRGB L03sA"
         },
         {
+            "colorName": "#F3ECED",
+            "company": 0,
+            "name": "SSY/sRGB L03ry"
+        },
+        {
+            "colorName": "#FBE9EC",
+            "company": 0,
+            "name": "SSY/sRGB L031y"
+        },
+        {
             "colorName": "#F9F2F3",
             "company": 0,
             "name": "SSY/sRGB L03rB"
+        },
+        {
+            "colorName": "#FFF8F9",
+            "company": 0,
+            "name": "SSY/sRGB L03rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -19031,9 +19921,24 @@
             "name": "SSY/sRGB L07sA"
         },
         {
+            "colorName": "#F2ECEE",
+            "company": 0,
+            "name": "SSY/sRGB L07ry"
+        },
+        {
+            "colorName": "#F9EAEE",
+            "company": 0,
+            "name": "SSY/sRGB L071y"
+        },
+        {
             "colorName": "#F8F2F4",
             "company": 0,
             "name": "SSY/sRGB L07rB"
+        },
+        {
+            "colorName": "#FEF8FA",
+            "company": 0,
+            "name": "SSY/sRGB L07rz"
         },
         {
             "colorName": "#1F1D1E",
@@ -19711,6 +20616,21 @@
             "name": "SSY/sRGB L12sA"
         },
         {
+            "colorName": "#F1ECEE",
+            "company": 0,
+            "name": "SSY/sRGB L12ry"
+        },
+        {
+            "colorName": "#F7EAF0",
+            "company": 0,
+            "name": "SSY/sRGB L121y"
+        },
+        {
+            "colorName": "#FEE8F2",
+            "company": 0,
+            "name": "SSY/sRGB L12sy"
+        },
+        {
             "colorName": "#F7F2F4",
             "company": 0,
             "name": "SSY/sRGB L12rB"
@@ -19719,6 +20639,11 @@
             "colorName": "#FDF0F6",
             "company": 0,
             "name": "SSY/sRGB L121B"
+        },
+        {
+            "colorName": "#FDF8FA",
+            "company": 0,
+            "name": "SSY/sRGB L12rz"
         },
         {
             "colorName": "#1F1D1E",
@@ -20421,6 +21346,21 @@
             "name": "SSY/sRGB L202A"
         },
         {
+            "colorName": "#F0ECEF",
+            "company": 0,
+            "name": "SSY/sRGB L20ry"
+        },
+        {
+            "colorName": "#F5EBF2",
+            "company": 0,
+            "name": "SSY/sRGB L201y"
+        },
+        {
+            "colorName": "#FBE9F5",
+            "company": 0,
+            "name": "SSY/sRGB L20sy"
+        },
+        {
             "colorName": "#F6F2F5",
             "company": 0,
             "name": "SSY/sRGB L20rB"
@@ -20429,6 +21369,11 @@
             "colorName": "#FBF1F8",
             "company": 0,
             "name": "SSY/sRGB L201B"
+        },
+        {
+            "colorName": "#FCF8FB",
+            "company": 0,
+            "name": "SSY/sRGB L20rz"
         },
         {
             "colorName": "#1E1D1E",
@@ -21151,6 +22096,26 @@
             "name": "SSY/sRGB L30tA"
         },
         {
+            "colorName": "#F0EDEF",
+            "company": 0,
+            "name": "SSY/sRGB L30ry"
+        },
+        {
+            "colorName": "#F3EBF3",
+            "company": 0,
+            "name": "SSY/sRGB L301y"
+        },
+        {
+            "colorName": "#F7E9F7",
+            "company": 0,
+            "name": "SSY/sRGB L30sy"
+        },
+        {
+            "colorName": "#FDE7FC",
+            "company": 0,
+            "name": "SSY/sRGB L302y"
+        },
+        {
             "colorName": "#F6F3F6",
             "company": 0,
             "name": "SSY/sRGB L30rB"
@@ -21164,6 +22129,11 @@
             "colorName": "#FEEFFD",
             "company": 0,
             "name": "SSY/sRGB L30sB"
+        },
+        {
+            "colorName": "#FCF8FB",
+            "company": 0,
+            "name": "SSY/sRGB L30rz"
         },
         {
             "colorName": "#1E1D1E",
@@ -21841,6 +22811,21 @@
             "name": "SSY/sRGB L452A"
         },
         {
+            "colorName": "#EFEDF0",
+            "company": 0,
+            "name": "SSY/sRGB L45ry"
+        },
+        {
+            "colorName": "#F1EBF4",
+            "company": 0,
+            "name": "SSY/sRGB L451y"
+        },
+        {
+            "colorName": "#F4EAF9",
+            "company": 0,
+            "name": "SSY/sRGB L45sy"
+        },
+        {
             "colorName": "#F5F3F6",
             "company": 0,
             "name": "SSY/sRGB L45rB"
@@ -21849,6 +22834,11 @@
             "colorName": "#F8F1FA",
             "company": 0,
             "name": "SSY/sRGB L451B"
+        },
+        {
+            "colorName": "#FBF9FC",
+            "company": 0,
+            "name": "SSY/sRGB L45rz"
         },
         {
             "colorName": "#1E1D1F",
@@ -22496,6 +23486,21 @@
             "name": "SSY/sRGB L702A"
         },
         {
+            "colorName": "#EEEDF0",
+            "company": 0,
+            "name": "SSY/sRGB L70ry"
+        },
+        {
+            "colorName": "#F0ECF5",
+            "company": 0,
+            "name": "SSY/sRGB L701y"
+        },
+        {
+            "colorName": "#F2EBFB",
+            "company": 0,
+            "name": "SSY/sRGB L70sy"
+        },
+        {
             "colorName": "#F4F3F6",
             "company": 0,
             "name": "SSY/sRGB L70rB"
@@ -22504,6 +23509,11 @@
             "colorName": "#F6F2FC",
             "company": 0,
             "name": "SSY/sRGB L701B"
+        },
+        {
+            "colorName": "#FAF9FC",
+            "company": 0,
+            "name": "SSY/sRGB L70rz"
         }
     ]
 }

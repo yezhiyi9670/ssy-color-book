@@ -76,9 +76,19 @@
             "name": "SSY/DisplayP3 0A"
         },
         {
+            "colorName": "#EDEDED",
+            "company": 0,
+            "name": "SSY/DisplayP3 0y"
+        },
+        {
             "colorName": "#F3F3F3",
             "company": 0,
             "name": "SSY/DisplayP3 0B"
+        },
+        {
+            "colorName": "#F9F9F9",
+            "company": 0,
+            "name": "SSY/DisplayP3 0z"
         },
         {
             "colorName": "#FFFFFF",
@@ -716,6 +726,21 @@
             "name": "SSY/DisplayP3 4002A"
         },
         {
+            "colorName": "#EEEDF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 400ry"
+        },
+        {
+            "colorName": "#EEECF5",
+            "company": 0,
+            "name": "SSY/DisplayP3 4001y"
+        },
+        {
+            "colorName": "#EFEBFB",
+            "company": 0,
+            "name": "SSY/DisplayP3 400sy"
+        },
+        {
             "colorName": "#F4F3F6",
             "company": 0,
             "name": "SSY/DisplayP3 400rB"
@@ -724,6 +749,11 @@
             "colorName": "#F4F2FB",
             "company": 0,
             "name": "SSY/DisplayP3 4001B"
+        },
+        {
+            "colorName": "#FAF9FC",
+            "company": 0,
+            "name": "SSY/DisplayP3 400rz"
         },
         {
             "colorName": "#1D1D1F",
@@ -1396,6 +1426,21 @@
             "name": "SSY/DisplayP3 4652A"
         },
         {
+            "colorName": "#EDEDF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 465ry"
+        },
+        {
+            "colorName": "#EDEDF5",
+            "company": 0,
+            "name": "SSY/DisplayP3 4651y"
+        },
+        {
+            "colorName": "#ECECFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 465sy"
+        },
+        {
             "colorName": "#F3F3F6",
             "company": 0,
             "name": "SSY/DisplayP3 465rB"
@@ -1404,6 +1449,11 @@
             "colorName": "#F3F3FB",
             "company": 0,
             "name": "SSY/DisplayP3 4651B"
+        },
+        {
+            "colorName": "#F9F9FC",
+            "company": 0,
+            "name": "SSY/DisplayP3 465rz"
         },
         {
             "colorName": "#1D1D1E",
@@ -2146,6 +2196,26 @@
             "name": "SSY/DisplayP3 480tA"
         },
         {
+            "colorName": "#ECEEF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 480ry"
+        },
+        {
+            "colorName": "#EAEEF3",
+            "company": 0,
+            "name": "SSY/DisplayP3 4801y"
+        },
+        {
+            "colorName": "#E7EEF8",
+            "company": 0,
+            "name": "SSY/DisplayP3 480sy"
+        },
+        {
+            "colorName": "#E4EFFD",
+            "company": 0,
+            "name": "SSY/DisplayP3 4802y"
+        },
+        {
             "colorName": "#F2F4F6",
             "company": 0,
             "name": "SSY/DisplayP3 480rB"
@@ -2159,6 +2229,11 @@
             "colorName": "#EDF4FE",
             "company": 0,
             "name": "SSY/DisplayP3 480sB"
+        },
+        {
+            "colorName": "#F8F9FC",
+            "company": 0,
+            "name": "SSY/DisplayP3 480rz"
         },
         {
             "colorName": "#1C1E1E",
@@ -2951,6 +3026,31 @@
             "name": "SSY/DisplayP3 4863A"
         },
         {
+            "colorName": "#EBEEEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 486ry"
+        },
+        {
+            "colorName": "#E8EFF2",
+            "company": 0,
+            "name": "SSY/DisplayP3 4861y"
+        },
+        {
+            "colorName": "#E4F0F5",
+            "company": 0,
+            "name": "SSY/DisplayP3 486sy"
+        },
+        {
+            "colorName": "#DFF1F9",
+            "company": 0,
+            "name": "SSY/DisplayP3 4862y"
+        },
+        {
+            "colorName": "#D9F2FE",
+            "company": 0,
+            "name": "SSY/DisplayP3 486ty"
+        },
+        {
             "colorName": "#F1F4F5",
             "company": 0,
             "name": "SSY/DisplayP3 486rB"
@@ -2964,6 +3064,16 @@
             "colorName": "#EAF6FC",
             "company": 0,
             "name": "SSY/DisplayP3 486sB"
+        },
+        {
+            "colorName": "#F7FAFB",
+            "company": 0,
+            "name": "SSY/DisplayP3 486rz"
+        },
+        {
+            "colorName": "#F4FBFE",
+            "company": 0,
+            "name": "SSY/DisplayP3 4861z"
         },
         {
             "colorName": "#1C1E1E",
@@ -3816,6 +3926,36 @@
             "name": "SSY/DisplayP3 4904A"
         },
         {
+            "colorName": "#EBEEEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 490ry"
+        },
+        {
+            "colorName": "#E6EFF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 4901y"
+        },
+        {
+            "colorName": "#E0F1F3",
+            "company": 0,
+            "name": "SSY/DisplayP3 490sy"
+        },
+        {
+            "colorName": "#D9F3F5",
+            "company": 0,
+            "name": "SSY/DisplayP3 4902y"
+        },
+        {
+            "colorName": "#D1F4F8",
+            "company": 0,
+            "name": "SSY/DisplayP3 490ty"
+        },
+        {
+            "colorName": "#C8F7FB",
+            "company": 0,
+            "name": "SSY/DisplayP3 4903y"
+        },
+        {
             "colorName": "#F1F4F5",
             "company": 0,
             "name": "SSY/DisplayP3 490rB"
@@ -3839,6 +3979,21 @@
             "colorName": "#D7FBFF",
             "company": 0,
             "name": "SSY/DisplayP3 490tB"
+        },
+        {
+            "colorName": "#F6FAFB",
+            "company": 0,
+            "name": "SSY/DisplayP3 490rz"
+        },
+        {
+            "colorName": "#F2FBFD",
+            "company": 0,
+            "name": "SSY/DisplayP3 4901z"
+        },
+        {
+            "colorName": "#ECFDFF",
+            "company": 0,
+            "name": "SSY/DisplayP3 490sz"
         },
         {
             "colorName": "#1C1E1E",
@@ -4716,6 +4871,41 @@
             "name": "SSY/DisplayP3 4935A"
         },
         {
+            "colorName": "#EAEEEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 493ry"
+        },
+        {
+            "colorName": "#E5F0EF",
+            "company": 0,
+            "name": "SSY/DisplayP3 4931y"
+        },
+        {
+            "colorName": "#DEF2F1",
+            "company": 0,
+            "name": "SSY/DisplayP3 493sy"
+        },
+        {
+            "colorName": "#D6F4F2",
+            "company": 0,
+            "name": "SSY/DisplayP3 4932y"
+        },
+        {
+            "colorName": "#CDF6F4",
+            "company": 0,
+            "name": "SSY/DisplayP3 493ty"
+        },
+        {
+            "colorName": "#C2F9F6",
+            "company": 0,
+            "name": "SSY/DisplayP3 4933y"
+        },
+        {
+            "colorName": "#A6FEFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 4934y"
+        },
+        {
             "colorName": "#F0F4F4",
             "company": 0,
             "name": "SSY/DisplayP3 493rB"
@@ -4739,6 +4929,21 @@
             "colorName": "#D2FDFA",
             "company": 0,
             "name": "SSY/DisplayP3 493tB"
+        },
+        {
+            "colorName": "#F6FAFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 493rz"
+        },
+        {
+            "colorName": "#F0FCFB",
+            "company": 0,
+            "name": "SSY/DisplayP3 4931z"
+        },
+        {
+            "colorName": "#E9FEFD",
+            "company": 0,
+            "name": "SSY/DisplayP3 493sz"
         },
         {
             "colorName": "#1C1E1D",
@@ -5611,6 +5816,36 @@
             "name": "SSY/DisplayP3 4964A"
         },
         {
+            "colorName": "#EAEFEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 496ry"
+        },
+        {
+            "colorName": "#E3F0EE",
+            "company": 0,
+            "name": "SSY/DisplayP3 4961y"
+        },
+        {
+            "colorName": "#DCF3EE",
+            "company": 0,
+            "name": "SSY/DisplayP3 496sy"
+        },
+        {
+            "colorName": "#D2F5EF",
+            "company": 0,
+            "name": "SSY/DisplayP3 4962y"
+        },
+        {
+            "colorName": "#C7F8EF",
+            "company": 0,
+            "name": "SSY/DisplayP3 496ty"
+        },
+        {
+            "colorName": "#BBFBF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 4963y"
+        },
+        {
             "colorName": "#F0F5F4",
             "company": 0,
             "name": "SSY/DisplayP3 496rB"
@@ -5634,6 +5869,21 @@
             "colorName": "#CCFEF5",
             "company": 0,
             "name": "SSY/DisplayP3 496tB"
+        },
+        {
+            "colorName": "#F5FBFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 496rz"
+        },
+        {
+            "colorName": "#EFFDFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 4961z"
+        },
+        {
+            "colorName": "#E7FFFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 496sz"
         },
         {
             "colorName": "#1B1E1D",
@@ -6496,6 +6746,36 @@
             "name": "SSY/DisplayP3 5004A"
         },
         {
+            "colorName": "#E9EFED",
+            "company": 0,
+            "name": "SSY/DisplayP3 500ry"
+        },
+        {
+            "colorName": "#E1F1EC",
+            "company": 0,
+            "name": "SSY/DisplayP3 5001y"
+        },
+        {
+            "colorName": "#D8F4EB",
+            "company": 0,
+            "name": "SSY/DisplayP3 500sy"
+        },
+        {
+            "colorName": "#CDF7EA",
+            "company": 0,
+            "name": "SSY/DisplayP3 5002y"
+        },
+        {
+            "colorName": "#C0FBE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 500ty"
+        },
+        {
+            "colorName": "#B1FEE7",
+            "company": 0,
+            "name": "SSY/DisplayP3 5003y"
+        },
+        {
             "colorName": "#EFF5F3",
             "company": 0,
             "name": "SSY/DisplayP3 500rB"
@@ -6514,6 +6794,16 @@
             "colorName": "#D2FEF0",
             "company": 0,
             "name": "SSY/DisplayP3 5002B"
+        },
+        {
+            "colorName": "#F5FBF9",
+            "company": 0,
+            "name": "SSY/DisplayP3 500rz"
+        },
+        {
+            "colorName": "#EDFDF8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5001z"
         },
         {
             "colorName": "#1B1E1D",
@@ -7366,6 +7656,31 @@
             "name": "SSY/DisplayP3 5073A"
         },
         {
+            "colorName": "#E8EFEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 507ry"
+        },
+        {
+            "colorName": "#DFF2E9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5071y"
+        },
+        {
+            "colorName": "#D4F6E6",
+            "company": 0,
+            "name": "SSY/DisplayP3 507sy"
+        },
+        {
+            "colorName": "#C7F9E2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5072y"
+        },
+        {
+            "colorName": "#B9FDDE",
+            "company": 0,
+            "name": "SSY/DisplayP3 507ty"
+        },
+        {
             "colorName": "#EEF5F2",
             "company": 0,
             "name": "SSY/DisplayP3 507rB"
@@ -7379,6 +7694,16 @@
             "colorName": "#DAFCEC",
             "company": 0,
             "name": "SSY/DisplayP3 507sB"
+        },
+        {
+            "colorName": "#F4FBF8",
+            "company": 0,
+            "name": "SSY/DisplayP3 507rz"
+        },
+        {
+            "colorName": "#EBFEF5",
+            "company": 0,
+            "name": "SSY/DisplayP3 5071z"
         },
         {
             "colorName": "#1C1E1C",
@@ -8296,6 +8621,41 @@
             "name": "SSY/DisplayP3 5506A"
         },
         {
+            "colorName": "#EBEEEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 550ry"
+        },
+        {
+            "colorName": "#E8F0E6",
+            "company": 0,
+            "name": "SSY/DisplayP3 5501y"
+        },
+        {
+            "colorName": "#E4F2E1",
+            "company": 0,
+            "name": "SSY/DisplayP3 550sy"
+        },
+        {
+            "colorName": "#DFF4DB",
+            "company": 0,
+            "name": "SSY/DisplayP3 5502y"
+        },
+        {
+            "colorName": "#DAF6D5",
+            "company": 0,
+            "name": "SSY/DisplayP3 550ty"
+        },
+        {
+            "colorName": "#D4F8CE",
+            "company": 0,
+            "name": "SSY/DisplayP3 5503y"
+        },
+        {
+            "colorName": "#C9FCBF",
+            "company": 0,
+            "name": "SSY/DisplayP3 5504y"
+        },
+        {
             "colorName": "#F1F4F1",
             "company": 0,
             "name": "SSY/DisplayP3 550rB"
@@ -8324,6 +8684,21 @@
             "colorName": "#DAFED3",
             "company": 0,
             "name": "SSY/DisplayP3 5503B"
+        },
+        {
+            "colorName": "#F7FAF6",
+            "company": 0,
+            "name": "SSY/DisplayP3 550rz"
+        },
+        {
+            "colorName": "#F3FCF2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5501z"
+        },
+        {
+            "colorName": "#EFFEEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 550sz"
         },
         {
             "colorName": "#1D1E1C",
@@ -9266,6 +9641,56 @@
             "name": "SSY/DisplayP3 560BA"
         },
         {
+            "colorName": "#ECEEEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 560ry"
+        },
+        {
+            "colorName": "#EBEFE7",
+            "company": 0,
+            "name": "SSY/DisplayP3 5601y"
+        },
+        {
+            "colorName": "#E9F0E2",
+            "company": 0,
+            "name": "SSY/DisplayP3 560sy"
+        },
+        {
+            "colorName": "#E7F1DD",
+            "company": 0,
+            "name": "SSY/DisplayP3 5602y"
+        },
+        {
+            "colorName": "#E4F3D7",
+            "company": 0,
+            "name": "SSY/DisplayP3 560ty"
+        },
+        {
+            "colorName": "#E2F4D0",
+            "company": 0,
+            "name": "SSY/DisplayP3 5603y"
+        },
+        {
+            "colorName": "#DDF7C3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5604y"
+        },
+        {
+            "colorName": "#D8F9B4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5605y"
+        },
+        {
+            "colorName": "#D2FCA4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5606y"
+        },
+        {
+            "colorName": "#CDFE92",
+            "company": 0,
+            "name": "SSY/DisplayP3 5607y"
+        },
+        {
             "colorName": "#F2F4F1",
             "company": 0,
             "name": "SSY/DisplayP3 560rB"
@@ -9299,6 +9724,31 @@
             "colorName": "#E2FDC8",
             "company": 0,
             "name": "SSY/DisplayP3 5604B"
+        },
+        {
+            "colorName": "#F8FAF7",
+            "company": 0,
+            "name": "SSY/DisplayP3 560rz"
+        },
+        {
+            "colorName": "#F7FBF3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5601z"
+        },
+        {
+            "colorName": "#F4FCEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 560sz"
+        },
+        {
+            "colorName": "#F2FDE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5602z"
+        },
+        {
+            "colorName": "#F0FFE2",
+            "company": 0,
+            "name": "SSY/DisplayP3 560tz"
         },
         {
             "colorName": "#1D1D1C",
@@ -10246,6 +10696,76 @@
             "name": "SSY/DisplayP3 565CA"
         },
         {
+            "colorName": "#EDEEEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 565ry"
+        },
+        {
+            "colorName": "#ECEEE7",
+            "company": 0,
+            "name": "SSY/DisplayP3 5651y"
+        },
+        {
+            "colorName": "#EBEFE3",
+            "company": 0,
+            "name": "SSY/DisplayP3 565sy"
+        },
+        {
+            "colorName": "#EAF0DE",
+            "company": 0,
+            "name": "SSY/DisplayP3 5652y"
+        },
+        {
+            "colorName": "#EAF1D8",
+            "company": 0,
+            "name": "SSY/DisplayP3 565ty"
+        },
+        {
+            "colorName": "#E8F2D2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5653y"
+        },
+        {
+            "colorName": "#E6F4C5",
+            "company": 0,
+            "name": "SSY/DisplayP3 5654y"
+        },
+        {
+            "colorName": "#E4F6B6",
+            "company": 0,
+            "name": "SSY/DisplayP3 5655y"
+        },
+        {
+            "colorName": "#E2F7A6",
+            "company": 0,
+            "name": "SSY/DisplayP3 5656y"
+        },
+        {
+            "colorName": "#E0F995",
+            "company": 0,
+            "name": "SSY/DisplayP3 5657y"
+        },
+        {
+            "colorName": "#DEFB82",
+            "company": 0,
+            "name": "SSY/DisplayP3 5658y"
+        },
+        {
+            "colorName": "#DCFC6C",
+            "company": 0,
+            "name": "SSY/DisplayP3 5659y"
+        },
+        {
+            "colorName": "#DAFD52",
+            "company": 0,
+            "name": "SSY/DisplayP3 565Ay"
+        },
+        {
+            "colorName": "#D9FF53",
+            "company": 0,
+            "name": "SSY/DisplayP3 565By"
+        },
+        {
             "colorName": "#F3F4F1",
             "company": 0,
             "name": "SSY/DisplayP3 565rB"
@@ -10289,6 +10809,36 @@
             "colorName": "#E8FEAB",
             "company": 0,
             "name": "SSY/DisplayP3 5656B"
+        },
+        {
+            "colorName": "#F9FAF7",
+            "company": 0,
+            "name": "SSY/DisplayP3 565rz"
+        },
+        {
+            "colorName": "#F8FAF3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5651z"
+        },
+        {
+            "colorName": "#F7FBEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 565sz"
+        },
+        {
+            "colorName": "#F6FCE9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5652z"
+        },
+        {
+            "colorName": "#F5FDE3",
+            "company": 0,
+            "name": "SSY/DisplayP3 565tz"
+        },
+        {
+            "colorName": "#F4FEDD",
+            "company": 0,
+            "name": "SSY/DisplayP3 5653z"
         },
         {
             "colorName": "#1D1D1C",
@@ -11236,6 +11786,81 @@
             "name": "SSY/DisplayP3 570CA"
         },
         {
+            "colorName": "#EEEEEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 570ry"
+        },
+        {
+            "colorName": "#EEEEE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5701y"
+        },
+        {
+            "colorName": "#EEEEE3",
+            "company": 0,
+            "name": "SSY/DisplayP3 570sy"
+        },
+        {
+            "colorName": "#EEEFDF",
+            "company": 0,
+            "name": "SSY/DisplayP3 5702y"
+        },
+        {
+            "colorName": "#EFEFD9",
+            "company": 0,
+            "name": "SSY/DisplayP3 570ty"
+        },
+        {
+            "colorName": "#EFF0D3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5703y"
+        },
+        {
+            "colorName": "#EFF1C7",
+            "company": 0,
+            "name": "SSY/DisplayP3 5704y"
+        },
+        {
+            "colorName": "#F0F2B9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5705y"
+        },
+        {
+            "colorName": "#F1F3A9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5706y"
+        },
+        {
+            "colorName": "#F1F398",
+            "company": 0,
+            "name": "SSY/DisplayP3 5707y"
+        },
+        {
+            "colorName": "#F2F485",
+            "company": 0,
+            "name": "SSY/DisplayP3 5708y"
+        },
+        {
+            "colorName": "#F2F570",
+            "company": 0,
+            "name": "SSY/DisplayP3 5709y"
+        },
+        {
+            "colorName": "#F3F655",
+            "company": 0,
+            "name": "SSY/DisplayP3 570Ay"
+        },
+        {
+            "colorName": "#F3F752",
+            "company": 0,
+            "name": "SSY/DisplayP3 570By"
+        },
+        {
+            "colorName": "#F4F752",
+            "company": 0,
+            "name": "SSY/DisplayP3 570Cy"
+        },
+        {
             "colorName": "#F4F4F1",
             "company": 0,
             "name": "SSY/DisplayP3 570rB"
@@ -11309,6 +11934,51 @@
             "colorName": "#FAFE54",
             "company": 0,
             "name": "SSY/DisplayP3 570CB"
+        },
+        {
+            "colorName": "#F9FAF7",
+            "company": 0,
+            "name": "SSY/DisplayP3 570rz"
+        },
+        {
+            "colorName": "#FAFAF3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5701z"
+        },
+        {
+            "colorName": "#FAFAEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 570sz"
+        },
+        {
+            "colorName": "#FAFBEA",
+            "company": 0,
+            "name": "SSY/DisplayP3 5702z"
+        },
+        {
+            "colorName": "#FBFBE4",
+            "company": 0,
+            "name": "SSY/DisplayP3 570tz"
+        },
+        {
+            "colorName": "#FBFCDE",
+            "company": 0,
+            "name": "SSY/DisplayP3 5703z"
+        },
+        {
+            "colorName": "#FCFDD1",
+            "company": 0,
+            "name": "SSY/DisplayP3 5704z"
+        },
+        {
+            "colorName": "#FCFEC2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5705z"
+        },
+        {
+            "colorName": "#FDFFB2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5706z"
         },
         {
             "colorName": "#1E1D1C",
@@ -12256,6 +12926,61 @@
             "name": "SSY/DisplayP3 573CA"
         },
         {
+            "colorName": "#EEEDEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 573ry"
+        },
+        {
+            "colorName": "#EFEEE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5731y"
+        },
+        {
+            "colorName": "#F0EEE4",
+            "company": 0,
+            "name": "SSY/DisplayP3 573sy"
+        },
+        {
+            "colorName": "#F1EEDF",
+            "company": 0,
+            "name": "SSY/DisplayP3 5732y"
+        },
+        {
+            "colorName": "#F2EEDA",
+            "company": 0,
+            "name": "SSY/DisplayP3 573ty"
+        },
+        {
+            "colorName": "#F3EED4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5733y"
+        },
+        {
+            "colorName": "#F5EFC8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5734y"
+        },
+        {
+            "colorName": "#F7EFBA",
+            "company": 0,
+            "name": "SSY/DisplayP3 5735y"
+        },
+        {
+            "colorName": "#F9EFAB",
+            "company": 0,
+            "name": "SSY/DisplayP3 5736y"
+        },
+        {
+            "colorName": "#FCF09A",
+            "company": 0,
+            "name": "SSY/DisplayP3 5737y"
+        },
+        {
+            "colorName": "#FEF088",
+            "company": 0,
+            "name": "SSY/DisplayP3 5738y"
+        },
+        {
             "colorName": "#F4F4F1",
             "company": 0,
             "name": "SSY/DisplayP3 573rB"
@@ -12294,6 +13019,36 @@
             "colorName": "#FEF5BF",
             "company": 0,
             "name": "SSY/DisplayP3 5735B"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/DisplayP3 573rz"
+        },
+        {
+            "colorName": "#FBFAF4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5731z"
+        },
+        {
+            "colorName": "#FCFAEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 573sz"
+        },
+        {
+            "colorName": "#FDFAEA",
+            "company": 0,
+            "name": "SSY/DisplayP3 5732z"
+        },
+        {
+            "colorName": "#FEFAE5",
+            "company": 0,
+            "name": "SSY/DisplayP3 573tz"
+        },
+        {
+            "colorName": "#FFFADF",
+            "company": 0,
+            "name": "SSY/DisplayP3 5733z"
         },
         {
             "colorName": "#1E1D1C",
@@ -13201,6 +13956,41 @@
             "name": "SSY/DisplayP3 5776A"
         },
         {
+            "colorName": "#EEEDEB",
+            "company": 0,
+            "name": "SSY/DisplayP3 577ry"
+        },
+        {
+            "colorName": "#F0EDE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5771y"
+        },
+        {
+            "colorName": "#F2EDE4",
+            "company": 0,
+            "name": "SSY/DisplayP3 577sy"
+        },
+        {
+            "colorName": "#F3EDE0",
+            "company": 0,
+            "name": "SSY/DisplayP3 5772y"
+        },
+        {
+            "colorName": "#F6EDDB",
+            "company": 0,
+            "name": "SSY/DisplayP3 577ty"
+        },
+        {
+            "colorName": "#F8ECD5",
+            "company": 0,
+            "name": "SSY/DisplayP3 5773y"
+        },
+        {
+            "colorName": "#FCECCA",
+            "company": 0,
+            "name": "SSY/DisplayP3 5774y"
+        },
+        {
             "colorName": "#F4F3F1",
             "company": 0,
             "name": "SSY/DisplayP3 577rB"
@@ -13229,6 +14019,21 @@
             "colorName": "#FEF2DB",
             "company": 0,
             "name": "SSY/DisplayP3 5773B"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/DisplayP3 577rz"
+        },
+        {
+            "colorName": "#FCF9F4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5771z"
+        },
+        {
+            "colorName": "#FEF9F0",
+            "company": 0,
+            "name": "SSY/DisplayP3 577sz"
         },
         {
             "colorName": "#1E1D1C",
@@ -14106,6 +14911,36 @@
             "name": "SSY/DisplayP3 5804A"
         },
         {
+            "colorName": "#EFEDEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 580ry"
+        },
+        {
+            "colorName": "#F1EDE8",
+            "company": 0,
+            "name": "SSY/DisplayP3 5801y"
+        },
+        {
+            "colorName": "#F3ECE5",
+            "company": 0,
+            "name": "SSY/DisplayP3 580sy"
+        },
+        {
+            "colorName": "#F6ECE0",
+            "company": 0,
+            "name": "SSY/DisplayP3 5802y"
+        },
+        {
+            "colorName": "#F8ECDC",
+            "company": 0,
+            "name": "SSY/DisplayP3 580ty"
+        },
+        {
+            "colorName": "#FBEBD6",
+            "company": 0,
+            "name": "SSY/DisplayP3 5803y"
+        },
+        {
             "colorName": "#F5F3F2",
             "company": 0,
             "name": "SSY/DisplayP3 580rB"
@@ -14129,6 +14964,16 @@
             "colorName": "#FFF2E1",
             "company": 0,
             "name": "SSY/DisplayP3 580tB"
+        },
+        {
+            "colorName": "#FBF9F7",
+            "company": 0,
+            "name": "SSY/DisplayP3 580rz"
+        },
+        {
+            "colorName": "#FDF9F4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5801z"
         },
         {
             "colorName": "#1E1D1D",
@@ -14971,6 +15816,31 @@
             "name": "SSY/DisplayP3 5853A"
         },
         {
+            "colorName": "#EFEDEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 585ry"
+        },
+        {
+            "colorName": "#F2ECE9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5851y"
+        },
+        {
+            "colorName": "#F5ECE5",
+            "company": 0,
+            "name": "SSY/DisplayP3 585sy"
+        },
+        {
+            "colorName": "#F9EBE1",
+            "company": 0,
+            "name": "SSY/DisplayP3 5852y"
+        },
+        {
+            "colorName": "#FDEADD",
+            "company": 0,
+            "name": "SSY/DisplayP3 585ty"
+        },
+        {
             "colorName": "#F5F3F2",
             "company": 0,
             "name": "SSY/DisplayP3 585rB"
@@ -14984,6 +15854,16 @@
             "colorName": "#FBF2EB",
             "company": 0,
             "name": "SSY/DisplayP3 585sB"
+        },
+        {
+            "colorName": "#FBF9F7",
+            "company": 0,
+            "name": "SSY/DisplayP3 585rz"
+        },
+        {
+            "colorName": "#FEF8F4",
+            "company": 0,
+            "name": "SSY/DisplayP3 5851z"
         },
         {
             "colorName": "#1E1D1D",
@@ -15791,6 +16671,26 @@
             "name": "SSY/DisplayP3 590tA"
         },
         {
+            "colorName": "#F0EDEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 590ry"
+        },
+        {
+            "colorName": "#F3ECE9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5901y"
+        },
+        {
+            "colorName": "#F8EBE6",
+            "company": 0,
+            "name": "SSY/DisplayP3 590sy"
+        },
+        {
+            "colorName": "#FCE9E2",
+            "company": 0,
+            "name": "SSY/DisplayP3 5902y"
+        },
+        {
             "colorName": "#F6F3F2",
             "company": 0,
             "name": "SSY/DisplayP3 590rB"
@@ -15804,6 +16704,11 @@
             "colorName": "#FEF1EC",
             "company": 0,
             "name": "SSY/DisplayP3 590sB"
+        },
+        {
+            "colorName": "#FCF9F8",
+            "company": 0,
+            "name": "SSY/DisplayP3 590rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -16586,6 +17491,26 @@
             "name": "SSY/DisplayP3 595tA"
         },
         {
+            "colorName": "#F0EDEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 595ry"
+        },
+        {
+            "colorName": "#F4EBE9",
+            "company": 0,
+            "name": "SSY/DisplayP3 5951y"
+        },
+        {
+            "colorName": "#F9EAE6",
+            "company": 0,
+            "name": "SSY/DisplayP3 595sy"
+        },
+        {
+            "colorName": "#FFE8E3",
+            "company": 0,
+            "name": "SSY/DisplayP3 5952y"
+        },
+        {
             "colorName": "#F6F3F2",
             "company": 0,
             "name": "SSY/DisplayP3 595rB"
@@ -16594,6 +17519,11 @@
             "colorName": "#FBF1EF",
             "company": 0,
             "name": "SSY/DisplayP3 5951B"
+        },
+        {
+            "colorName": "#FCF9F8",
+            "company": 0,
+            "name": "SSY/DisplayP3 595rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -17351,6 +18281,21 @@
             "name": "SSY/DisplayP3 6002A"
         },
         {
+            "colorName": "#F0EDEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 600ry"
+        },
+        {
+            "colorName": "#F5EBEA",
+            "company": 0,
+            "name": "SSY/DisplayP3 6001y"
+        },
+        {
+            "colorName": "#FBE9E7",
+            "company": 0,
+            "name": "SSY/DisplayP3 600sy"
+        },
+        {
             "colorName": "#F7F3F2",
             "company": 0,
             "name": "SSY/DisplayP3 600rB"
@@ -17359,6 +18304,11 @@
             "colorName": "#FCF1F0",
             "company": 0,
             "name": "SSY/DisplayP3 6001B"
+        },
+        {
+            "colorName": "#FDF8F8",
+            "company": 0,
+            "name": "SSY/DisplayP3 600rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -18061,6 +19011,16 @@
             "name": "SSY/DisplayP3 620sA"
         },
         {
+            "colorName": "#F2ECEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 620ry"
+        },
+        {
+            "colorName": "#F8EAEA",
+            "company": 0,
+            "name": "SSY/DisplayP3 6201y"
+        },
+        {
             "colorName": "#F8F2F2",
             "company": 0,
             "name": "SSY/DisplayP3 620rB"
@@ -18069,6 +19029,11 @@
             "colorName": "#FEF0F0",
             "company": 0,
             "name": "SSY/DisplayP3 6201B"
+        },
+        {
+            "colorName": "#FEF8F8",
+            "company": 0,
+            "name": "SSY/DisplayP3 620rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -18756,6 +19721,16 @@
             "name": "SSY/DisplayP3 L03sA"
         },
         {
+            "colorName": "#F2ECED",
+            "company": 0,
+            "name": "SSY/DisplayP3 L03ry"
+        },
+        {
+            "colorName": "#F8EAEC",
+            "company": 0,
+            "name": "SSY/DisplayP3 L031y"
+        },
+        {
             "colorName": "#F8F2F3",
             "company": 0,
             "name": "SSY/DisplayP3 L03rB"
@@ -18764,6 +19739,11 @@
             "colorName": "#FFF0F3",
             "company": 0,
             "name": "SSY/DisplayP3 L031B"
+        },
+        {
+            "colorName": "#FEF8F9",
+            "company": 0,
+            "name": "SSY/DisplayP3 L03rz"
         },
         {
             "colorName": "#1F1D1D",
@@ -19466,6 +20446,21 @@
             "name": "SSY/DisplayP3 L072A"
         },
         {
+            "colorName": "#F1ECEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 L07ry"
+        },
+        {
+            "colorName": "#F6EAEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 L071y"
+        },
+        {
+            "colorName": "#FDE8EF",
+            "company": 0,
+            "name": "SSY/DisplayP3 L07sy"
+        },
+        {
             "colorName": "#F7F2F4",
             "company": 0,
             "name": "SSY/DisplayP3 L07rB"
@@ -19474,6 +20469,11 @@
             "colorName": "#FDF0F4",
             "company": 0,
             "name": "SSY/DisplayP3 L071B"
+        },
+        {
+            "colorName": "#FDF8FA",
+            "company": 0,
+            "name": "SSY/DisplayP3 L07rz"
         },
         {
             "colorName": "#1F1D1E",
@@ -20191,6 +21191,21 @@
             "name": "SSY/DisplayP3 L122A"
         },
         {
+            "colorName": "#F0ECEE",
+            "company": 0,
+            "name": "SSY/DisplayP3 L12ry"
+        },
+        {
+            "colorName": "#F5EBF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 L121y"
+        },
+        {
+            "colorName": "#FAE8F1",
+            "company": 0,
+            "name": "SSY/DisplayP3 L12sy"
+        },
+        {
             "colorName": "#F6F2F4",
             "company": 0,
             "name": "SSY/DisplayP3 L12rB"
@@ -20199,6 +21214,11 @@
             "colorName": "#FBF1F6",
             "company": 0,
             "name": "SSY/DisplayP3 L121B"
+        },
+        {
+            "colorName": "#FCF8FA",
+            "company": 0,
+            "name": "SSY/DisplayP3 L12rz"
         },
         {
             "colorName": "#1E1D1E",
@@ -20941,6 +21961,26 @@
             "name": "SSY/DisplayP3 L20tA"
         },
         {
+            "colorName": "#F0EDEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 L20ry"
+        },
+        {
+            "colorName": "#F3EBF1",
+            "company": 0,
+            "name": "SSY/DisplayP3 L201y"
+        },
+        {
+            "colorName": "#F7E9F4",
+            "company": 0,
+            "name": "SSY/DisplayP3 L20sy"
+        },
+        {
+            "colorName": "#FCE7F7",
+            "company": 0,
+            "name": "SSY/DisplayP3 L202y"
+        },
+        {
             "colorName": "#F6F3F5",
             "company": 0,
             "name": "SSY/DisplayP3 L20rB"
@@ -20954,6 +21994,11 @@
             "colorName": "#FEEFFA",
             "company": 0,
             "name": "SSY/DisplayP3 L20sB"
+        },
+        {
+            "colorName": "#FCF8FB",
+            "company": 0,
+            "name": "SSY/DisplayP3 L20rz"
         },
         {
             "colorName": "#1E1D1E",
@@ -21696,6 +22741,26 @@
             "name": "SSY/DisplayP3 L303A"
         },
         {
+            "colorName": "#EFEDEF",
+            "company": 0,
+            "name": "SSY/DisplayP3 L30ry"
+        },
+        {
+            "colorName": "#F2EBF2",
+            "company": 0,
+            "name": "SSY/DisplayP3 L301y"
+        },
+        {
+            "colorName": "#F5EAF6",
+            "company": 0,
+            "name": "SSY/DisplayP3 L30sy"
+        },
+        {
+            "colorName": "#F9E8FB",
+            "company": 0,
+            "name": "SSY/DisplayP3 L302y"
+        },
+        {
             "colorName": "#F5F3F5",
             "company": 0,
             "name": "SSY/DisplayP3 L30rB"
@@ -21709,6 +22774,16 @@
             "colorName": "#FBF0FC",
             "company": 0,
             "name": "SSY/DisplayP3 L30sB"
+        },
+        {
+            "colorName": "#FBF9FB",
+            "company": 0,
+            "name": "SSY/DisplayP3 L30rz"
+        },
+        {
+            "colorName": "#FEF7FF",
+            "company": 0,
+            "name": "SSY/DisplayP3 L301z"
         },
         {
             "colorName": "#1E1D1E",
@@ -22401,6 +23476,26 @@
             "name": "SSY/DisplayP3 L45tA"
         },
         {
+            "colorName": "#EEEDF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 L45ry"
+        },
+        {
+            "colorName": "#F0ECF3",
+            "company": 0,
+            "name": "SSY/DisplayP3 L451y"
+        },
+        {
+            "colorName": "#F3EAF8",
+            "company": 0,
+            "name": "SSY/DisplayP3 L45sy"
+        },
+        {
+            "colorName": "#F5E9FE",
+            "company": 0,
+            "name": "SSY/DisplayP3 L452y"
+        },
+        {
             "colorName": "#F5F3F6",
             "company": 0,
             "name": "SSY/DisplayP3 L45rB"
@@ -22414,6 +23509,11 @@
             "colorName": "#F9F0FF",
             "company": 0,
             "name": "SSY/DisplayP3 L45sB"
+        },
+        {
+            "colorName": "#FAF9FC",
+            "company": 0,
+            "name": "SSY/DisplayP3 L45rz"
         },
         {
             "colorName": "#1E1D1F",
@@ -23071,6 +24171,21 @@
             "name": "SSY/DisplayP3 L702A"
         },
         {
+            "colorName": "#EEEDF0",
+            "company": 0,
+            "name": "SSY/DisplayP3 L70ry"
+        },
+        {
+            "colorName": "#EFECF5",
+            "company": 0,
+            "name": "SSY/DisplayP3 L701y"
+        },
+        {
+            "colorName": "#F0EBFA",
+            "company": 0,
+            "name": "SSY/DisplayP3 L70sy"
+        },
+        {
             "colorName": "#F4F3F6",
             "company": 0,
             "name": "SSY/DisplayP3 L70rB"
@@ -23079,6 +24194,11 @@
             "colorName": "#F5F2FB",
             "company": 0,
             "name": "SSY/DisplayP3 L701B"
+        },
+        {
+            "colorName": "#FAF9FC",
+            "company": 0,
+            "name": "SSY/DisplayP3 L70rz"
         }
     ]
 }

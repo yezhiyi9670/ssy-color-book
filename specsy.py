@@ -27,6 +27,10 @@ class SpecSYColor():
                 return 1.5
             if digit.lower() == 't':
                 return 2.5
+            if digit.lower() == 'y':
+                return 10.5
+            if digit.lower() == 'z':
+                return 11.5
             return int(digit, base=13)
 
         assert len(code) == 5 or len(code) == 2, 'Code should be either 5-digits or 2-digits.'

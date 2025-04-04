@@ -18,7 +18,7 @@ def generate_color_set():
         'L03', 'L07', 'L12', 'L20', 'L30', 'L45', 'L70'
     ]
     y_digits = '0123456789ABC'
-    y_aug_digits = '0nr1s2t3456789ABC'
+    y_aug_digits = '0nr1s2t3456789AyBzC'
     
     ret: list[tuple[ColorEntry, list[list[ColorEntry]]]] = []
     

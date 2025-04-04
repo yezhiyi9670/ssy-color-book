@@ -76,9 +76,19 @@
             "name": "SSY/AdobeRGB 0A"
         },
         {
+            "colorName": "#EDEDED",
+            "company": 0,
+            "name": "SSY/AdobeRGB 0y"
+        },
+        {
             "colorName": "#F3F3F3",
             "company": 0,
             "name": "SSY/AdobeRGB 0B"
+        },
+        {
+            "colorName": "#F9F9F9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 0z"
         },
         {
             "colorName": "#FFFFFF",
@@ -701,6 +711,21 @@
             "name": "SSY/AdobeRGB 4002A"
         },
         {
+            "colorName": "#EDECF0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 400ry"
+        },
+        {
+            "colorName": "#EDEBF5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4001y"
+        },
+        {
+            "colorName": "#EEEAFC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 400sy"
+        },
+        {
             "colorName": "#F3F3F6",
             "company": 0,
             "name": "SSY/AdobeRGB 400rB"
@@ -709,6 +734,11 @@
             "colorName": "#F4F2FC",
             "company": 0,
             "name": "SSY/AdobeRGB 4001B"
+        },
+        {
+            "colorName": "#F9F9FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 400rz"
         },
         {
             "colorName": "#232324",
@@ -1371,6 +1401,21 @@
             "name": "SSY/AdobeRGB 4652A"
         },
         {
+            "colorName": "#EDEDF0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 465ry"
+        },
+        {
+            "colorName": "#ECECF5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4651y"
+        },
+        {
+            "colorName": "#EBECFB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 465sy"
+        },
+        {
             "colorName": "#F3F3F6",
             "company": 0,
             "name": "SSY/AdobeRGB 465rB"
@@ -1379,6 +1424,11 @@
             "colorName": "#F2F2FB",
             "company": 0,
             "name": "SSY/AdobeRGB 4651B"
+        },
+        {
+            "colorName": "#F9F9FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 465rz"
         },
         {
             "colorName": "#222324",
@@ -2116,6 +2166,26 @@
             "name": "SSY/AdobeRGB 480tA"
         },
         {
+            "colorName": "#ECEDEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 480ry"
+        },
+        {
+            "colorName": "#EAEDF3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4801y"
+        },
+        {
+            "colorName": "#E7EEF8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 480sy"
+        },
+        {
+            "colorName": "#E5EFFE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4802y"
+        },
+        {
             "colorName": "#F2F3F6",
             "company": 0,
             "name": "SSY/AdobeRGB 480rB"
@@ -2129,6 +2199,11 @@
             "colorName": "#EEF4FF",
             "company": 0,
             "name": "SSY/AdobeRGB 480sB"
+        },
+        {
+            "colorName": "#F8F9FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 480rz"
         },
         {
             "colorName": "#222324",
@@ -2916,6 +2991,31 @@
             "name": "SSY/AdobeRGB 4863A"
         },
         {
+            "colorName": "#EBEDEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 486ry"
+        },
+        {
+            "colorName": "#E8EEF2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4861y"
+        },
+        {
+            "colorName": "#E5F0F6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 486sy"
+        },
+        {
+            "colorName": "#E0F1FA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4862y"
+        },
+        {
+            "colorName": "#DBF2FF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 486ty"
+        },
+        {
             "colorName": "#F1F4F5",
             "company": 0,
             "name": "SSY/AdobeRGB 486rB"
@@ -2929,6 +3029,16 @@
             "colorName": "#EBF6FC",
             "company": 0,
             "name": "SSY/AdobeRGB 486sB"
+        },
+        {
+            "colorName": "#F7FAFB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 486rz"
+        },
+        {
+            "colorName": "#F4FBFE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4861z"
         },
         {
             "colorName": "#222323",
@@ -3776,6 +3886,36 @@
             "name": "SSY/AdobeRGB 4904A"
         },
         {
+            "colorName": "#EBEEEE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 490ry"
+        },
+        {
+            "colorName": "#E7EFF0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4901y"
+        },
+        {
+            "colorName": "#E2F1F3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 490sy"
+        },
+        {
+            "colorName": "#DCF3F6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4902y"
+        },
+        {
+            "colorName": "#D6F6F9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 490ty"
+        },
+        {
+            "colorName": "#CEF8FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4903y"
+        },
+        {
             "colorName": "#F1F4F4",
             "company": 0,
             "name": "SSY/AdobeRGB 490rB"
@@ -3794,6 +3934,16 @@
             "colorName": "#E2FAFC",
             "company": 0,
             "name": "SSY/AdobeRGB 4902B"
+        },
+        {
+            "colorName": "#F7FAFA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 490rz"
+        },
+        {
+            "colorName": "#F3FCFD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4901z"
         },
         {
             "colorName": "#222323",
@@ -4661,6 +4811,36 @@
             "name": "SSY/AdobeRGB 4934A"
         },
         {
+            "colorName": "#EAEEEE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 493ry"
+        },
+        {
+            "colorName": "#E6F0EF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4931y"
+        },
+        {
+            "colorName": "#E0F2F1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 493sy"
+        },
+        {
+            "colorName": "#D9F5F2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4932y"
+        },
+        {
+            "colorName": "#D2F8F4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 493ty"
+        },
+        {
+            "colorName": "#C9FBF6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4933y"
+        },
+        {
             "colorName": "#F0F4F4",
             "company": 0,
             "name": "SSY/AdobeRGB 493rB"
@@ -4684,6 +4864,21 @@
             "colorName": "#D7FEFB",
             "company": 0,
             "name": "SSY/AdobeRGB 493tB"
+        },
+        {
+            "colorName": "#F6FAFA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 493rz"
+        },
+        {
+            "colorName": "#F2FCFB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4931z"
+        },
+        {
+            "colorName": "#ECFFFD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 493sz"
         },
         {
             "colorName": "#222323",
@@ -5546,6 +5741,36 @@
             "name": "SSY/AdobeRGB 4964A"
         },
         {
+            "colorName": "#EAEEED",
+            "company": 0,
+            "name": "SSY/AdobeRGB 496ry"
+        },
+        {
+            "colorName": "#E5F1EE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4961y"
+        },
+        {
+            "colorName": "#DEF3EE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 496sy"
+        },
+        {
+            "colorName": "#D6F6EF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4962y"
+        },
+        {
+            "colorName": "#CEFAEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 496ty"
+        },
+        {
+            "colorName": "#C4FDF0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4963y"
+        },
+        {
             "colorName": "#F0F5F3",
             "company": 0,
             "name": "SSY/AdobeRGB 496rB"
@@ -5564,6 +5789,16 @@
             "colorName": "#DCFDF5",
             "company": 0,
             "name": "SSY/AdobeRGB 4962B"
+        },
+        {
+            "colorName": "#F6FBF9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 496rz"
+        },
+        {
+            "colorName": "#F0FDFA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 4961z"
         },
         {
             "colorName": "#212323",
@@ -6411,6 +6646,31 @@
             "name": "SSY/AdobeRGB 5003A"
         },
         {
+            "colorName": "#E9EFEC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 500ry"
+        },
+        {
+            "colorName": "#E3F2EB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5001y"
+        },
+        {
+            "colorName": "#DBF5EA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 500sy"
+        },
+        {
+            "colorName": "#D2F9E9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5002y"
+        },
+        {
+            "colorName": "#C8FDE8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 500ty"
+        },
+        {
             "colorName": "#EFF5F3",
             "company": 0,
             "name": "SSY/AdobeRGB 500rB"
@@ -6424,6 +6684,16 @@
             "colorName": "#E1FBF1",
             "company": 0,
             "name": "SSY/AdobeRGB 500sB"
+        },
+        {
+            "colorName": "#F5FBF9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 500rz"
+        },
+        {
+            "colorName": "#EFFEF8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5001z"
         },
         {
             "colorName": "#212422",
@@ -7271,6 +7541,26 @@
             "name": "SSY/AdobeRGB 5073A"
         },
         {
+            "colorName": "#E8EFEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 507ry"
+        },
+        {
+            "colorName": "#E1F3E8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5071y"
+        },
+        {
+            "colorName": "#D8F7E5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 507sy"
+        },
+        {
+            "colorName": "#CEFBE1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5072y"
+        },
+        {
             "colorName": "#EFF5F1",
             "company": 0,
             "name": "SSY/AdobeRGB 507rB"
@@ -7284,6 +7574,11 @@
             "colorName": "#DEFDEB",
             "company": 0,
             "name": "SSY/AdobeRGB 507sB"
+        },
+        {
+            "colorName": "#F4FCF7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 507rz"
         },
         {
             "colorName": "#222322",
@@ -8191,6 +8486,41 @@
             "name": "SSY/AdobeRGB 5505A"
         },
         {
+            "colorName": "#EBEEEA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 550ry"
+        },
+        {
+            "colorName": "#E8F0E5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5501y"
+        },
+        {
+            "colorName": "#E5F2E0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 550sy"
+        },
+        {
+            "colorName": "#E1F4D9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5502y"
+        },
+        {
+            "colorName": "#DDF7D2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 550ty"
+        },
+        {
+            "colorName": "#D9F9CB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5503y"
+        },
+        {
+            "colorName": "#D0FEBB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5504y"
+        },
+        {
             "colorName": "#F1F4F0",
             "company": 0,
             "name": "SSY/AdobeRGB 550rB"
@@ -8214,6 +8544,21 @@
             "colorName": "#E3FDD8",
             "company": 0,
             "name": "SSY/AdobeRGB 550tB"
+        },
+        {
+            "colorName": "#F7FAF6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 550rz"
+        },
+        {
+            "colorName": "#F4FCF1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5501z"
+        },
+        {
+            "colorName": "#F1FFEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 550sz"
         },
         {
             "colorName": "#222322",
@@ -9146,6 +9491,51 @@
             "name": "SSY/AdobeRGB 5609A"
         },
         {
+            "colorName": "#ECEEEA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 560ry"
+        },
+        {
+            "colorName": "#EBEFE6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5601y"
+        },
+        {
+            "colorName": "#E9F0E1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 560sy"
+        },
+        {
+            "colorName": "#E7F1DB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5602y"
+        },
+        {
+            "colorName": "#E6F3D4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 560ty"
+        },
+        {
+            "colorName": "#E4F4CE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5603y"
+        },
+        {
+            "colorName": "#E0F7BF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5604y"
+        },
+        {
+            "colorName": "#DCFAAF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5605y"
+        },
+        {
+            "colorName": "#D8FD9D",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5606y"
+        },
+        {
             "colorName": "#F2F4F0",
             "company": 0,
             "name": "SSY/AdobeRGB 560rB"
@@ -9179,6 +9569,26 @@
             "colorName": "#E6FEC4",
             "company": 0,
             "name": "SSY/AdobeRGB 5604B"
+        },
+        {
+            "colorName": "#F8FAF6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 560rz"
+        },
+        {
+            "colorName": "#F7FBF2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5601z"
+        },
+        {
+            "colorName": "#F5FCEC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 560sz"
+        },
+        {
+            "colorName": "#F3FEE6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5602z"
         },
         {
             "colorName": "#232322",
@@ -10126,6 +10536,71 @@
             "name": "SSY/AdobeRGB 565CA"
         },
         {
+            "colorName": "#EDEDEA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565ry"
+        },
+        {
+            "colorName": "#ECEEE6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5651y"
+        },
+        {
+            "colorName": "#EBEFE1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565sy"
+        },
+        {
+            "colorName": "#EBF0DC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5652y"
+        },
+        {
+            "colorName": "#EAF1D6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565ty"
+        },
+        {
+            "colorName": "#E9F2CF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5653y"
+        },
+        {
+            "colorName": "#E8F4C1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5654y"
+        },
+        {
+            "colorName": "#E6F6B1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5655y"
+        },
+        {
+            "colorName": "#E4F8A0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5656y"
+        },
+        {
+            "colorName": "#E3FA8D",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5657y"
+        },
+        {
+            "colorName": "#E1FC78",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5658y"
+        },
+        {
+            "colorName": "#E0FD5F",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5659y"
+        },
+        {
+            "colorName": "#DFFF3C",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565Ay"
+        },
+        {
             "colorName": "#F3F4F1",
             "company": 0,
             "name": "SSY/AdobeRGB 565rB"
@@ -10169,6 +10644,36 @@
             "colorName": "#EAFEA4",
             "company": 0,
             "name": "SSY/AdobeRGB 5656B"
+        },
+        {
+            "colorName": "#F9FAF7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565rz"
+        },
+        {
+            "colorName": "#F8FAF2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5651z"
+        },
+        {
+            "colorName": "#F8FBED",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565sz"
+        },
+        {
+            "colorName": "#F7FCE7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5652z"
+        },
+        {
+            "colorName": "#F6FDE1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 565tz"
+        },
+        {
+            "colorName": "#F5FEDA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5653z"
         },
         {
             "colorName": "#232322",
@@ -11116,6 +11621,81 @@
             "name": "SSY/AdobeRGB 570CA"
         },
         {
+            "colorName": "#EDEDEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570ry"
+        },
+        {
+            "colorName": "#EDEDE7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5701y"
+        },
+        {
+            "colorName": "#EDEEE2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570sy"
+        },
+        {
+            "colorName": "#EEEEDD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5702y"
+        },
+        {
+            "colorName": "#EEEFD7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570ty"
+        },
+        {
+            "colorName": "#EEEFD1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5703y"
+        },
+        {
+            "colorName": "#EFF0C3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5704y"
+        },
+        {
+            "colorName": "#F0F1B4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5705y"
+        },
+        {
+            "colorName": "#F1F2A3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5706y"
+        },
+        {
+            "colorName": "#F1F391",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5707y"
+        },
+        {
+            "colorName": "#F2F47C",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5708y"
+        },
+        {
+            "colorName": "#F2F563",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5709y"
+        },
+        {
+            "colorName": "#F3F641",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570Ay"
+        },
+        {
+            "colorName": "#F4F700",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570By"
+        },
+        {
+            "colorName": "#F4F700",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570Cy"
+        },
+        {
             "colorName": "#F3F3F1",
             "company": 0,
             "name": "SSY/AdobeRGB 570rB"
@@ -11189,6 +11769,51 @@
             "colorName": "#FBFE00",
             "company": 0,
             "name": "SSY/AdobeRGB 570CB"
+        },
+        {
+            "colorName": "#F9F9F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570rz"
+        },
+        {
+            "colorName": "#FAFAF3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5701z"
+        },
+        {
+            "colorName": "#FAFAEE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570sz"
+        },
+        {
+            "colorName": "#FAFBE8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5702z"
+        },
+        {
+            "colorName": "#FAFBE2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 570tz"
+        },
+        {
+            "colorName": "#FBFCDB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5703z"
+        },
+        {
+            "colorName": "#FCFDCD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5704z"
+        },
+        {
+            "colorName": "#FCFEBD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5705z"
+        },
+        {
+            "colorName": "#FDFFAB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5706z"
         },
         {
             "colorName": "#232322",
@@ -12136,6 +12761,66 @@
             "name": "SSY/AdobeRGB 573CA"
         },
         {
+            "colorName": "#EDEDEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573ry"
+        },
+        {
+            "colorName": "#EEEDE7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5731y"
+        },
+        {
+            "colorName": "#EFEDE2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573sy"
+        },
+        {
+            "colorName": "#F0EDDD",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5732y"
+        },
+        {
+            "colorName": "#F1EDD8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573ty"
+        },
+        {
+            "colorName": "#F2EED2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5733y"
+        },
+        {
+            "colorName": "#F4EEC4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5734y"
+        },
+        {
+            "colorName": "#F6EEB5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5735y"
+        },
+        {
+            "colorName": "#F8EFA5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5736y"
+        },
+        {
+            "colorName": "#FAEF93",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5737y"
+        },
+        {
+            "colorName": "#FCEF7E",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5738y"
+        },
+        {
+            "colorName": "#FEEF65",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5739y"
+        },
+        {
             "colorName": "#F4F3F1",
             "company": 0,
             "name": "SSY/AdobeRGB 573rB"
@@ -12179,6 +12864,36 @@
             "colorName": "#FEF5A9",
             "company": 0,
             "name": "SSY/AdobeRGB 5736B"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573rz"
+        },
+        {
+            "colorName": "#FAF9F3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5731z"
+        },
+        {
+            "colorName": "#FBF9EE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573sz"
+        },
+        {
+            "colorName": "#FCFAE9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5732z"
+        },
+        {
+            "colorName": "#FDFAE3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 573tz"
+        },
+        {
+            "colorName": "#FEFADC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5733z"
         },
         {
             "colorName": "#232322",
@@ -13101,6 +13816,46 @@
             "name": "SSY/AdobeRGB 5777A"
         },
         {
+            "colorName": "#EEEDEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 577ry"
+        },
+        {
+            "colorName": "#EFEDE7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5771y"
+        },
+        {
+            "colorName": "#F0ECE3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 577sy"
+        },
+        {
+            "colorName": "#F2ECDE",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5772y"
+        },
+        {
+            "colorName": "#F4ECD9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 577ty"
+        },
+        {
+            "colorName": "#F6EBD3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5773y"
+        },
+        {
+            "colorName": "#FAEBC6",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5774y"
+        },
+        {
+            "colorName": "#FEEAB7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5775y"
+        },
+        {
             "colorName": "#F4F3F1",
             "company": 0,
             "name": "SSY/AdobeRGB 577rB"
@@ -13129,6 +13884,26 @@
             "colorName": "#FCF2D8",
             "company": 0,
             "name": "SSY/AdobeRGB 5773B"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 577rz"
+        },
+        {
+            "colorName": "#FBF9F3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5771z"
+        },
+        {
+            "colorName": "#FDF9EF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 577sz"
+        },
+        {
+            "colorName": "#FFF8EA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5772z"
         },
         {
             "colorName": "#232322",
@@ -14021,6 +14796,41 @@
             "name": "SSY/AdobeRGB 5805A"
         },
         {
+            "colorName": "#EEEDEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 580ry"
+        },
+        {
+            "colorName": "#F0ECE7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5801y"
+        },
+        {
+            "colorName": "#F2ECE3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 580sy"
+        },
+        {
+            "colorName": "#F4EBDF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5802y"
+        },
+        {
+            "colorName": "#F6EAD9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 580ty"
+        },
+        {
+            "colorName": "#F9EAD4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5803y"
+        },
+        {
+            "colorName": "#FEE8C7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5804y"
+        },
+        {
             "colorName": "#F4F3F1",
             "company": 0,
             "name": "SSY/AdobeRGB 580rB"
@@ -14044,6 +14854,21 @@
             "colorName": "#FDF1DF",
             "company": 0,
             "name": "SSY/AdobeRGB 580tB"
+        },
+        {
+            "colorName": "#FAF9F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 580rz"
+        },
+        {
+            "colorName": "#FCF8F3",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5801z"
+        },
+        {
+            "colorName": "#FEF8EF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 580sz"
         },
         {
             "colorName": "#232322",
@@ -14906,6 +15731,36 @@
             "name": "SSY/AdobeRGB 5854A"
         },
         {
+            "colorName": "#EEECEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 585ry"
+        },
+        {
+            "colorName": "#F1ECE8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5851y"
+        },
+        {
+            "colorName": "#F4EBE4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 585sy"
+        },
+        {
+            "colorName": "#F7EADF",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5852y"
+        },
+        {
+            "colorName": "#FAE8DA",
+            "company": 0,
+            "name": "SSY/AdobeRGB 585ty"
+        },
+        {
+            "colorName": "#FEE7D5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5853y"
+        },
+        {
             "colorName": "#F5F3F1",
             "company": 0,
             "name": "SSY/AdobeRGB 585rB"
@@ -14924,6 +15779,16 @@
             "colorName": "#FDF0E5",
             "company": 0,
             "name": "SSY/AdobeRGB 5852B"
+        },
+        {
+            "colorName": "#FBF9F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 585rz"
+        },
+        {
+            "colorName": "#FDF8F4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5851z"
         },
         {
             "colorName": "#242322",
@@ -15756,6 +16621,31 @@
             "name": "SSY/AdobeRGB 5903A"
         },
         {
+            "colorName": "#EFECEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 590ry"
+        },
+        {
+            "colorName": "#F2EBE8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5901y"
+        },
+        {
+            "colorName": "#F6EAE4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 590sy"
+        },
+        {
+            "colorName": "#FAE8E0",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5902y"
+        },
+        {
+            "colorName": "#FEE6DC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 590ty"
+        },
+        {
             "colorName": "#F5F2F1",
             "company": 0,
             "name": "SSY/AdobeRGB 590rB"
@@ -15769,6 +16659,16 @@
             "colorName": "#FCF0EB",
             "company": 0,
             "name": "SSY/AdobeRGB 590sB"
+        },
+        {
+            "colorName": "#FBF8F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 590rz"
+        },
+        {
+            "colorName": "#FEF7F4",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5901z"
         },
         {
             "colorName": "#242222",
@@ -16571,6 +17471,26 @@
             "name": "SSY/AdobeRGB 595tA"
         },
         {
+            "colorName": "#EFECEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 595ry"
+        },
+        {
+            "colorName": "#F3EAE8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5951y"
+        },
+        {
+            "colorName": "#F7E9E5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 595sy"
+        },
+        {
+            "colorName": "#FCE7E1",
+            "company": 0,
+            "name": "SSY/AdobeRGB 5952y"
+        },
+        {
             "colorName": "#F5F2F1",
             "company": 0,
             "name": "SSY/AdobeRGB 595rB"
@@ -16584,6 +17504,11 @@
             "colorName": "#FEEFEB",
             "company": 0,
             "name": "SSY/AdobeRGB 595sB"
+        },
+        {
+            "colorName": "#FCF8F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 595rz"
         },
         {
             "colorName": "#242222",
@@ -17366,6 +18291,26 @@
             "name": "SSY/AdobeRGB 600tA"
         },
         {
+            "colorName": "#EFECEB",
+            "company": 0,
+            "name": "SSY/AdobeRGB 600ry"
+        },
+        {
+            "colorName": "#F4EAE9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 6001y"
+        },
+        {
+            "colorName": "#F9E8E5",
+            "company": 0,
+            "name": "SSY/AdobeRGB 600sy"
+        },
+        {
+            "colorName": "#FEE5E2",
+            "company": 0,
+            "name": "SSY/AdobeRGB 6002y"
+        },
+        {
             "colorName": "#F6F2F1",
             "company": 0,
             "name": "SSY/AdobeRGB 600rB"
@@ -17374,6 +18319,11 @@
             "colorName": "#FAF0EF",
             "company": 0,
             "name": "SSY/AdobeRGB 6001B"
+        },
+        {
+            "colorName": "#FCF8F7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 600rz"
         },
         {
             "colorName": "#242222",
@@ -18111,6 +19061,21 @@
             "name": "SSY/AdobeRGB 6202A"
         },
         {
+            "colorName": "#F0EBEC",
+            "company": 0,
+            "name": "SSY/AdobeRGB 620ry"
+        },
+        {
+            "colorName": "#F6E9E9",
+            "company": 0,
+            "name": "SSY/AdobeRGB 6201y"
+        },
+        {
+            "colorName": "#FDE6E7",
+            "company": 0,
+            "name": "SSY/AdobeRGB 620sy"
+        },
+        {
             "colorName": "#F7F1F2",
             "company": 0,
             "name": "SSY/AdobeRGB 620rB"
@@ -18119,6 +19084,11 @@
             "colorName": "#FCEFF0",
             "company": 0,
             "name": "SSY/AdobeRGB 6201B"
+        },
+        {
+            "colorName": "#FDF8F8",
+            "company": 0,
+            "name": "SSY/AdobeRGB 620rz"
         },
         {
             "colorName": "#242223",
@@ -18836,6 +19806,21 @@
             "name": "SSY/AdobeRGB L032A"
         },
         {
+            "colorName": "#F0EBEC",
+            "company": 0,
+            "name": "SSY/AdobeRGB L03ry"
+        },
+        {
+            "colorName": "#F6E8EC",
+            "company": 0,
+            "name": "SSY/AdobeRGB L031y"
+        },
+        {
+            "colorName": "#FDE5EB",
+            "company": 0,
+            "name": "SSY/AdobeRGB L03sy"
+        },
+        {
             "colorName": "#F7F1F3",
             "company": 0,
             "name": "SSY/AdobeRGB L03rB"
@@ -18844,6 +19829,11 @@
             "colorName": "#FCEFF2",
             "company": 0,
             "name": "SSY/AdobeRGB L031B"
+        },
+        {
+            "colorName": "#FDF7F9",
+            "company": 0,
+            "name": "SSY/AdobeRGB L03rz"
         },
         {
             "colorName": "#242223",
@@ -19571,6 +20561,21 @@
             "name": "SSY/AdobeRGB L072A"
         },
         {
+            "colorName": "#F0EBED",
+            "company": 0,
+            "name": "SSY/AdobeRGB L07ry"
+        },
+        {
+            "colorName": "#F4E9EE",
+            "company": 0,
+            "name": "SSY/AdobeRGB L071y"
+        },
+        {
+            "colorName": "#FAE6EE",
+            "company": 0,
+            "name": "SSY/AdobeRGB L07sy"
+        },
+        {
             "colorName": "#F6F2F3",
             "company": 0,
             "name": "SSY/AdobeRGB L07rB"
@@ -19579,6 +20584,11 @@
             "colorName": "#FBEFF4",
             "company": 0,
             "name": "SSY/AdobeRGB L071B"
+        },
+        {
+            "colorName": "#FCF8F9",
+            "company": 0,
+            "name": "SSY/AdobeRGB L07rz"
         },
         {
             "colorName": "#242223",
@@ -20321,6 +21331,26 @@
             "name": "SSY/AdobeRGB L12tA"
         },
         {
+            "colorName": "#EFECEE",
+            "company": 0,
+            "name": "SSY/AdobeRGB L12ry"
+        },
+        {
+            "colorName": "#F3EAEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB L121y"
+        },
+        {
+            "colorName": "#F8E7F1",
+            "company": 0,
+            "name": "SSY/AdobeRGB L12sy"
+        },
+        {
+            "colorName": "#FDE4F3",
+            "company": 0,
+            "name": "SSY/AdobeRGB L122y"
+        },
+        {
             "colorName": "#F6F2F4",
             "company": 0,
             "name": "SSY/AdobeRGB L12rB"
@@ -20334,6 +21364,11 @@
             "colorName": "#FEEDF7",
             "company": 0,
             "name": "SSY/AdobeRGB L12sB"
+        },
+        {
+            "colorName": "#FCF8FA",
+            "company": 0,
+            "name": "SSY/AdobeRGB L12rz"
         },
         {
             "colorName": "#232223",
@@ -21101,6 +22136,31 @@
             "name": "SSY/AdobeRGB L203A"
         },
         {
+            "colorName": "#EFECEE",
+            "company": 0,
+            "name": "SSY/AdobeRGB L20ry"
+        },
+        {
+            "colorName": "#F2EAF1",
+            "company": 0,
+            "name": "SSY/AdobeRGB L201y"
+        },
+        {
+            "colorName": "#F5E8F4",
+            "company": 0,
+            "name": "SSY/AdobeRGB L20sy"
+        },
+        {
+            "colorName": "#FAE5F8",
+            "company": 0,
+            "name": "SSY/AdobeRGB L202y"
+        },
+        {
+            "colorName": "#FEE2FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB L20ty"
+        },
+        {
             "colorName": "#F5F2F5",
             "company": 0,
             "name": "SSY/AdobeRGB L20rB"
@@ -21114,6 +22174,16 @@
             "colorName": "#FCEEFA",
             "company": 0,
             "name": "SSY/AdobeRGB L20sB"
+        },
+        {
+            "colorName": "#FBF8FB",
+            "company": 0,
+            "name": "SSY/AdobeRGB L20rz"
+        },
+        {
+            "colorName": "#FEF6FD",
+            "company": 0,
+            "name": "SSY/AdobeRGB L201z"
         },
         {
             "colorName": "#232224",
@@ -21851,6 +22921,26 @@
             "name": "SSY/AdobeRGB L30tA"
         },
         {
+            "colorName": "#EEECEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB L30ry"
+        },
+        {
+            "colorName": "#F0EAF2",
+            "company": 0,
+            "name": "SSY/AdobeRGB L301y"
+        },
+        {
+            "colorName": "#F3E9F6",
+            "company": 0,
+            "name": "SSY/AdobeRGB L30sy"
+        },
+        {
+            "colorName": "#F6E6FB",
+            "company": 0,
+            "name": "SSY/AdobeRGB L302y"
+        },
+        {
             "colorName": "#F4F2F5",
             "company": 0,
             "name": "SSY/AdobeRGB L30rB"
@@ -21864,6 +22954,16 @@
             "colorName": "#FAEFFD",
             "company": 0,
             "name": "SSY/AdobeRGB L30sB"
+        },
+        {
+            "colorName": "#FBF8FB",
+            "company": 0,
+            "name": "SSY/AdobeRGB L30rz"
+        },
+        {
+            "colorName": "#FDF7FF",
+            "company": 0,
+            "name": "SSY/AdobeRGB L301z"
         },
         {
             "colorName": "#232324",
@@ -22546,6 +23646,26 @@
             "name": "SSY/AdobeRGB L45tA"
         },
         {
+            "colorName": "#EEECEF",
+            "company": 0,
+            "name": "SSY/AdobeRGB L45ry"
+        },
+        {
+            "colorName": "#EFEBF3",
+            "company": 0,
+            "name": "SSY/AdobeRGB L451y"
+        },
+        {
+            "colorName": "#F1E9F9",
+            "company": 0,
+            "name": "SSY/AdobeRGB L45sy"
+        },
+        {
+            "colorName": "#F3E7FF",
+            "company": 0,
+            "name": "SSY/AdobeRGB L452y"
+        },
+        {
             "colorName": "#F4F2F6",
             "company": 0,
             "name": "SSY/AdobeRGB L45rB"
@@ -22554,6 +23674,11 @@
             "colorName": "#F6F1FA",
             "company": 0,
             "name": "SSY/AdobeRGB L451B"
+        },
+        {
+            "colorName": "#FAF8FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB L45rz"
         },
         {
             "colorName": "#232324",
@@ -23206,6 +24331,21 @@
             "name": "SSY/AdobeRGB L702A"
         },
         {
+            "colorName": "#EDECF0",
+            "company": 0,
+            "name": "SSY/AdobeRGB L70ry"
+        },
+        {
+            "colorName": "#EEEBF5",
+            "company": 0,
+            "name": "SSY/AdobeRGB L701y"
+        },
+        {
+            "colorName": "#EFEAFB",
+            "company": 0,
+            "name": "SSY/AdobeRGB L70sy"
+        },
+        {
             "colorName": "#F4F2F6",
             "company": 0,
             "name": "SSY/AdobeRGB L70rB"
@@ -23214,6 +24354,11 @@
             "colorName": "#F4F1FB",
             "company": 0,
             "name": "SSY/AdobeRGB L701B"
+        },
+        {
+            "colorName": "#FAF9FC",
+            "company": 0,
+            "name": "SSY/AdobeRGB L70rz"
         }
     ]
 }
