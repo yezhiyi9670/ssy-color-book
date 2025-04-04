@@ -43,7 +43,7 @@ def generate_color_set():
             s_digits = s_unfiltered_digits
             s_aug_digits = s_unfiltered_aug_digits
             if y == 'n':
-                s_aug_digits = '13456789ABC'
+                s_aug_digits = '13579ABC'
             elif y == 'r':
                 s_aug_digits = '13456789ABC'
             elif y == '1':
